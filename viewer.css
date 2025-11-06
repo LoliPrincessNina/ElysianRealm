@@ -405,7 +405,6 @@ h1 {
         width: 100% !important;
         max-width: 100% !important;
         min-width: 100% !important;
-        flex: 0 0 auto !important;
     }
     
     /* 或者使用更直接的方法 */
@@ -413,7 +412,6 @@ h1 {
         width: 100% !important;
         max-width: 100% !important;
         min-width: 100% !important;
-        flex: 0 0 auto !important;
     }
     
     /* 為每個面板設置順序 */
@@ -464,6 +462,7 @@ h1 {
         min-height: 44px !important;
         display: flex !important;
         align-items: center !important;
+        width: 100% !important;
     }
     
     /* 優化詳細信息顯示 */
