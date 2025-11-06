@@ -1,11 +1,18 @@
 <!DOCTYPE html>
 <html lang="zh-TW">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 在現有 meta 標籤後添加 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
     <title>「光暈戰記」往世樂土‧任務瀏覽器</title>
     <link rel="stylesheet" href="./viewer.css">
+    <!-- 在 head 部分添加 -->
+    <link rel="apple-touch-icon" href="./icon.png">
 </head>
+
 <body>
     <div class="container">
         <header>
@@ -25,7 +32,7 @@
                     <!-- 季節列表將通過JavaScript動態生成 -->
                 </div>
             </div>
-            
+
             <!-- 章節面板 -->
             <div id="chapters-panel" class="browser-panel chapters-panel">
                 <div class="panel-header">章節列表</div>
@@ -33,7 +40,7 @@
                     <!-- 章節列表將通過JavaScript動態生成 -->
                 </div>
             </div>
-            
+
             <!-- 任務面板 -->
             <div id="missions-panel" class="browser-panel missions-panel">
                 <div class="panel-header">任務列表</div>
@@ -41,7 +48,7 @@
                     <!-- 任務列表將通過JavaScript動態生成 -->
                 </div>
             </div>
-            
+
             <!-- 詳情面板 -->
             <div id="details-panel" class="browser-panel details-panel">
                 <div class="panel-header">詳細信息</div>
@@ -54,4 +61,5 @@
 
     <script type="module" src="./viewer.js"></script>
 </body>
+
 </html>

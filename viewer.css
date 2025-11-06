@@ -313,17 +313,6 @@ h1 {
     font-style: italic;
 }
 
-@media (max-width: 768px) {
-    .browser-container {
-        flex-direction: column;
-    }
-
-    .browser-panel {
-        width: 100% !important;
-        height: 25%;
-    }
-}
-
 .task-code {
     font-family: monospace;
     white-space: pre-wrap;
@@ -382,4 +371,115 @@ h1 {
 
 .chapter-description ul {
     padding-left: 22px;
+}
+
+/* 在現有媒體查詢基礎上擴展 */
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+        height: auto;
+        min-height: 100vh;
+        overflow-y: auto;
+    }
+    
+    .container {
+        height: auto;
+        min-height: 100vh;
+    }
+    
+    .browser-container {
+        flex-direction: column;
+        gap: 10px;
+        height: auto;
+    }
+    
+    .browser-panel {
+        width: 100% !important;
+        height: auto;
+        max-height: 40vh;
+    }
+    
+    /* 優化標題顯示 */
+    h1 {
+        font-size: 1.5rem;
+    }
+    
+    .subtitle {
+        font-size: 0.9rem;
+    }
+    
+    /* 優化面板內容 */
+    .panel-content {
+        padding: 10px;
+    }
+    
+    /* 優化項目間距 */
+    .season-item, 
+    .chapter-item, 
+    .mission-item {
+        padding: 10px 12px;
+        font-size: 0.9rem;
+    }
+    
+    /* 優化詳細信息顯示 */
+    .mission-title {
+        font-size: 1.2rem;
+        padding: 10px 15px;
+        min-width: auto;
+        width: 100%;
+    }
+    
+    .mission-detail-item {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .mission-detail-label {
+        min-width: auto;
+        margin-bottom: 5px;
+    }
+    
+    /* 優化條件顯示 */
+    .condition-content-box ul {
+        padding-left: 15px !important;
+    }
+}
+
+/* 添加觸摸反饋 */
+.season-item, 
+.chapter-item, 
+.mission-item {
+    -webkit-tap-highlight-color: transparent;
+    user-select: none;
+}
+
+/* 優化觸摸目標大小 */
+@media (max-width: 768px) {
+    .season-item, 
+    .chapter-item, 
+    .mission-item {
+        min-height: 44px;
+        display: flex;
+        align-items: center;
+    }
+}
+
+/* 橫屏優化 */
+@media (max-width: 768px) and (orientation: landscape) {
+    .browser-container {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    
+    .seasons-panel,
+    .chapters-panel,
+    .missions-panel {
+        width: 30% !important;
+        max-height: 70vh;
+    }
+    
+    .details-panel {
+        width: 100% !important;
+        max-height: 25vh;
+    }
 }

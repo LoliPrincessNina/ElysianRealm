@@ -544,6 +544,29 @@ document.addEventListener('DOMContentLoaded', function () {
         return `「${categoryName}」`;
     }
 
+    // 添加觸摸事件支持
+    function addMobileSupport() {
+        // 為所有可點擊元素添加觸摸事件
+        const clickableElements = document.querySelectorAll('.season-item, .chapter-item, .mission-item');
+
+        clickableElements.forEach(element => {
+            // 防止雙擊縮放
+            element.addEventListener('touchstart', function (e) {
+                if (e.touches.length > 1) {
+                    e.preventDefault();
+                }
+            }, { passive: false });
+
+            // 防止長按選擇文本
+            element.addEventListener('contextmenu', function (e) {
+                e.preventDefault();
+            });
+        });
+    }
+
+    // 在渲染完成後調用
+    setTimeout(addMobileSupport, 100);
+
     // 初始化
     try {
         console.log('開始處理數據...');
@@ -568,5 +591,16 @@ document.addEventListener('DOMContentLoaded', function () {
                 <p>請檢查控制台獲取詳細信息</p>
             </div>
         `;
+    }
+
+    // 在初始化部分添加移動端檢測
+    function isMobileDevice() {
+        return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ||
+            window.innerWidth <= 768;
+    }
+
+    // 在加載完成後根據設備類型優化
+    if (isMobileDevice()) {
+        document.body.classList.add('mobile-device');
     }
 });
