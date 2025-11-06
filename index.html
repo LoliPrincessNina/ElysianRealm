@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>「光暈戰記」往世樂土‧任務瀏覽器</title>
+    <link rel="stylesheet" href="./viewer.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>「光暈戰記」往世樂土‧任務瀏覽器</h1>
+            <p class="subtitle">瀏覽「光暈戰記」往世樂土中的季節、章節和任務</p>
+        </header>
+
+        <div id="loading" class="loading">
+            正在加載任務數據...
+        </div>
+
+        <div id="content" class="browser-container" style="display: none;">
+            <!-- 季節面板 -->
+            <div id="seasons-panel" class="browser-panel seasons-panel">
+                <div class="panel-header">季節列表</div>
+                <div id="seasons-list" class="panel-content">
+                    <!-- 季節列表將通過JavaScript動態生成 -->
+                </div>
+            </div>
+            
+            <!-- 章節面板 -->
+            <div id="chapters-panel" class="browser-panel chapters-panel">
+                <div class="panel-header">章節列表</div>
+                <div id="chapters-list" class="panel-content">
+                    <!-- 章節列表將通過JavaScript動態生成 -->
+                </div>
+            </div>
+            
+            <!-- 任務面板 -->
+            <div id="missions-panel" class="browser-panel missions-panel">
+                <div class="panel-header">任務列表</div>
+                <div id="missions-list" class="panel-content">
+                    <!-- 任務列表將通過JavaScript動態生成 -->
+                </div>
+            </div>
+            
+            <!-- 詳情面板 -->
+            <div id="details-panel" class="browser-panel details-panel">
+                <div class="panel-header">詳細信息</div>
+                <div id="details-content" class="panel-content">
+                    <!-- 詳細信息將通過JavaScript動態生成 -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="module" src="./viewer.js"></script>
+</body>
+</html>
