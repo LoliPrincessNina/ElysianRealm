@@ -408,28 +408,28 @@ h1 {
     }
     
     /* 為每個面板設置不同的最小高度 */
-    #seasons-panel {
+    .seasons-panel {
         width: 100% !important;
         max-width: fit-content !important;
         min-height: 300px;
         order: 1;
     }
     
-    #chapters-panel {
+    .chapters-panel {
         width: 100% !important;
         max-width: fit-content !important;
         min-height: 300px;
         order: 2;
     }
     
-    #missions-panel {
+    .missions-panel {
         width: 100% !important;
         max-width: fit-content !important;
         min-height: 300px;
         order: 3;
     }
     
-    #details-panel {
+    .details-panel {
         min-height: 1000px;
         order: 4;
         flex: 1;
@@ -437,7 +437,7 @@ h1 {
     
     /* 優化面板內容區域 */
     .panel-content {
-        max-height: 150px;
+        min-height: 150px;
         overflow-y: auto;
         padding: 10px;
     }
