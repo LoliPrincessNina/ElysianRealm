@@ -409,22 +409,25 @@ h1 {
     
     /* 為每個面板設置不同的最小高度 */
     .seasons-panel {
-        min-height: 180px;
+        width: 100% !important;
+        min-height: 300px;
         order: 1;
     }
     
     .chapters-panel {
-        min-height: 180px;
+        width: 100% !important;
+        min-height: 300px;
         order: 2;
     }
     
     .missions-panel {
-        min-height: 180px;
+        width: 100% !important;
+        min-height: 300px;
         order: 3;
     }
     
     .details-panel {
-        min-height: 250px;
+        min-height: 500px;
         order: 4;
         flex: 1;
     }
