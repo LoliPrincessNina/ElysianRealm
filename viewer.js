@@ -117,7 +117,7 @@ document.addEventListener('DOMContentLoaded', function () {
         chaptersList.innerHTML = '';
 
         if (!chapters || !Array.isArray(chapters) || chapters.length === 0) {
-            chaptersList.innerHTML = '<div class="no-selection">暫無章節信息</div>';
+            chaptersList.innerHTML = '<div class="no-selection">請選擇一個季節</div>';
             return;
         }
 
@@ -159,7 +159,7 @@ document.addEventListener('DOMContentLoaded', function () {
         missionsList.innerHTML = '';
 
         if (!missions || !Array.isArray(missions) || missions.length === 0) {
-            missionsList.innerHTML = '<div class="no-selection">暫無任務信息</div>';
+            missionsList.innerHTML = '<div class="no-selection">請選擇一個章節</div>';
             return;
         }
 
@@ -206,32 +206,32 @@ document.addEventListener('DOMContentLoaded', function () {
             const openConditionText = getOpenConditionText(mission.open);
 
             detailsContent.innerHTML = `
-            <h3 class="mission-title">${mission.name || '未命名任務'}</h3>
-            ${!isInfoMission ? `
-            <div class="mission-details">
-                ${!isAfterstoryMission ? `
-                <div class="mission-detail-item">
-                    <span class="mission-detail-label">任務代碼：</span>
-                    <span class="task-code">${mission.code || '無代碼'}</span>
-                </div>
-                ` : ''}
-                <div class="mission-detail-item">
-                    <span class="mission-detail-label">開放狀態：</span>
-                    <span>${openConditionText}</span>
-                </div>
-                ${!isAfterstoryMission && mission.file ? `
-                <div class="mission-detail-item">
-                    <span class="mission-detail-label">文件路徑：</span>
-                    <div class="file-path">${mission.file}</div>
-                </div>` : ''}
+        <h3 class="mission-title">${mission.name || '未命名任務'}</h3>
+        ${!isInfoMission ? `
+        <div class="mission-details">
+            ${!isAfterstoryMission ? `
+            <div class="mission-detail-item">
+                <span class="mission-detail-label">任務代碼：</span>
+                <span class="task-code">${mission.code || '無代碼'}</span>
             </div>
             ` : ''}
-            ${isAfterstoryMission ?
+            <div class="mission-detail-item">
+                <span class="mission-detail-label">開放狀態：</span>
+                <span>${openConditionText}</span>
+            </div>
+            ${!isAfterstoryMission && mission.file ? `
+            <div class="mission-detail-item">
+                <span class="mission-detail-label">文件路徑：</span>
+                <div class="file-path">${mission.file}</div>
+            </div>` : ''}
+        </div>
+        ` : ''}
+        ${isAfterstoryMission ?
                     `<div class="mission-description"><p>請完成挑戰以閱讀後記。</p></div>` :
                     (mission.description && Array.isArray(mission.description) && mission.description.length > 0 ?
                         `<div class="mission-description">${renderDescription(mission.description)}</div>` : '')
                 }
-        `;
+    `;
         } else if (chapter) {
             // 檢查是否為 info_afterstory_ 開頭的章節
             const isAfterstoryChapter = chapter.code && chapter.code.startsWith('info_afterstory_');
@@ -242,35 +242,35 @@ document.addEventListener('DOMContentLoaded', function () {
             const chapterOpenConditionText = getOpenConditionText(chapter.open);
 
             detailsContent.innerHTML = `
-            <h3 class="mission-title">${chapter.name || '未命名章節'}</h3>
-            ${!isInfoChapter ? `
-            <div class="mission-details">
-                ${!isAfterstoryChapter ? `
-                <div class="mission-detail-item">
-                    <span class="mission-detail-label">章節代碼：</span>
-                    <span class="task-code">${chapter.code || '無代碼'}</span>
-                </div>
-                ` : ''}
-                <div class="mission-detail-item">
-                    <span class="mission-detail-label">開放狀態：</span>
-                    <span>${chapterOpenConditionText}</span>
-                </div>
+        <h3 class="mission-title">${chapter.name || '未命名章節'}</h3>
+        ${!isInfoChapter ? `
+        <div class="mission-details">
+            ${!isAfterstoryChapter ? `
+            <div class="mission-detail-item">
+                <span class="mission-detail-label">章節代碼：</span>
+                <span class="task-code">${chapter.code || '無代碼'}</span>
             </div>
             ` : ''}
-            ${isAfterstoryChapter ?
+            <div class="mission-detail-item">
+                <span class="mission-detail-label">開放狀態：</span>
+                <span>${chapterOpenConditionText}</span>
+            </div>
+        </div>
+        ` : ''}
+        ${isAfterstoryChapter ?
                     `<div class="chapter-description"><p>請完成挑戰以閱讀後記。</p></div>` :
                     (chapter.description && Array.isArray(chapter.description) && chapter.description.length > 0 ?
                         `<div class="chapter-description">${renderDescription(chapter.description)}</div>` : '')
                 }
-            ${chapter.badgeCodes && Array.isArray(chapter.badgeCodes) && chapter.badgeCodes.length > 0 ?
+        ${chapter.badgeCodes && Array.isArray(chapter.badgeCodes) && chapter.badgeCodes.length > 0 ?
                     `<div class="badge-section">
-                    <h4>可以獲取的勳章：</h4>
-                    <div class="badge-list">${renderBadges(chapter.badgeCodes)}</div>
-                </div>` : ''}
-        `;
+                <h4>可以獲取的勳章：</h4>
+                <div class="badge-list">${renderBadges(chapter.badgeCodes)}</div>
+            </div>` : ''}
+    `;
         } else {
-            // 顯示提示信息
-            detailsContent.innerHTML = '<div class="no-selection">請選擇一個任務查看詳情</div>';
+            // 顯示提示信息 - 保持與HTML一致
+            detailsContent.innerHTML = '<div class="no-selection">請選擇一個章節或任務</div>';
         }
     }
 
