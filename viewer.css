@@ -520,6 +520,7 @@ h1 {
         user-select: none !important;
         cursor: pointer !important;
         transition: all 0.2s ease !important;
+        width: 100% !important;
     }
     
     /* 觸摸反饋 */
@@ -528,6 +529,7 @@ h1 {
     .mission-item:active {
         background-color: #e0e0e0 !important;
         transform: scale(0.98) !important;
+        width: 100% !important;
     }
     
     /* 激活狀態優化 */
