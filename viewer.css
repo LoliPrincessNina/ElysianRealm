@@ -483,3 +483,31 @@ h1 {
         max-height: 25vh;
     }
 }
+
+/* 觸摸設備優化 */
+@media (max-width: 768px) {
+    /* 改善觸摸體驗 */
+    .season-item, 
+    .chapter-item, 
+    .mission-item {
+        -webkit-tap-highlight-color: rgba(0, 0, 0, 0.1);
+        user-select: none;
+        cursor: pointer;
+        transition: all 0.2s ease;
+    }
+    
+    /* 觸摸反饋 */
+    .season-item:active, 
+    .chapter-item:active, 
+    .mission-item:active {
+        background-color: #e0e0e0;
+        transform: scale(0.98);
+    }
+    
+    /* 激活狀態優化 */
+    .season-item.active, 
+    .chapter-item.active, 
+    .mission-item.active {
+        transform: none;
+    }
+}
