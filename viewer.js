@@ -81,6 +81,7 @@ document.addEventListener('DOMContentLoaded', function () {
             seasonElement.textContent = season.name || '未命名季節';
             seasonElement.dataset.index = seasonIndex;
 
+            // 在渲染季節列表的點擊事件中修改
             seasonElement.addEventListener('click', function () {
                 // 移除其他季節的active狀態
                 document.querySelectorAll('.season-item').forEach(item => {
@@ -98,8 +99,8 @@ document.addEventListener('DOMContentLoaded', function () {
                 // 渲染章節列表
                 renderChapters(season.chapters);
 
-                // 清空任務和詳情面板
-                renderMissions([]);
+                // 清空任務和詳情面板 - 改為不傳參數
+                renderMissions();
                 renderDetails(null, null, null);
             });
 
@@ -129,6 +130,7 @@ document.addEventListener('DOMContentLoaded', function () {
             chapterElement.textContent = chapter.name || '未命名章節';
             chapterElement.dataset.index = chapterIndex;
 
+            // 在渲染章節列表的點擊事件中修改
             chapterElement.addEventListener('click', function () {
                 // 移除其他章節的active狀態
                 document.querySelectorAll('.chapter-item').forEach(item => {
@@ -142,7 +144,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 currentChapter = chapter;
                 currentMission = null;
 
-                // 渲染任務列表
+                // 渲染任務列表 - 傳入實際的 missions 陣列
                 renderMissions(chapter.missions);
 
                 // 渲染章節詳情
@@ -153,13 +155,20 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     }
 
-    // 渲染任務列表
+    // 修改 renderMissions 函數
     function renderMissions(missions) {
         const missionsList = document.getElementById('missions-list');
         missionsList.innerHTML = '';
 
-        if (!missions || !Array.isArray(missions) || missions.length === 0) {
+        // 如果沒有傳入 missions 參數（未選擇章節）
+        if (missions === undefined) {
             missionsList.innerHTML = '<div class="no-selection">請選擇一個章節</div>';
+            return;
+        }
+
+        // 如果 missions 是空陣列（已選擇章節但無任務）
+        if (!Array.isArray(missions) || missions.length === 0) {
+            missionsList.innerHTML = '<div class="no-selection">此章節暫無任務</div>';
             return;
         }
 
