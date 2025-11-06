@@ -397,48 +397,45 @@ h1 {
         overflow-y: auto !important;
     }
     
-    /* 所有面板改為全寬度 - 使用更具體的選擇器 */
-    .browser-container .browser-panel {
+    /* 強制所有面板全寬度 - 使用更具體的選擇器 */
+    #seasons-panel.seasons-panel,
+    #chapters-panel.chapters-panel,
+    #missions-panel.missions-panel,
+    #details-panel.details-panel {
         width: 100% !important;
         max-width: 100% !important;
-        height: auto !important;
-        min-height: 200px !important;
-        max-height: none !important;
-        flex-shrink: 0 !important;
+        min-width: 100% !important;
+        flex: 0 0 auto !important;
     }
     
-    /* 為每個面板設置不同的最小高度 */
-    .browser-container .seasons-panel {
+    /* 或者使用更直接的方法 */
+    .browser-container > .browser-panel {
         width: 100% !important;
         max-width: 100% !important;
-        min-height: 200px !important;
+        min-width: 100% !important;
+        flex: 0 0 auto !important;
+    }
+    
+    /* 為每個面板設置順序 */
+    #seasons-panel.seasons-panel {
         order: 1 !important;
     }
     
-    .browser-container .chapters-panel {
-        width: 100% !important;
-        max-width: 100% !important;
-        min-height: 200px !important;
+    #chapters-panel.chapters-panel {
         order: 2 !important;
     }
     
-    .browser-container .missions-panel {
-        width: 100% !important;
-        max-width: 100% !important;
-        min-height: 200px !important;
+    #missions-panel.missions-panel {
         order: 3 !important;
     }
     
-    .browser-container .details-panel {
-        width: 100% !important;
-        min-height: 300px !important;
+    #details-panel.details-panel {
         order: 4 !important;
-        flex: 1 !important;
+        flex: 1 1 auto !important; /* 詳情面板可以伸縮 */
     }
     
     /* 優化面板內容區域 */
-    .browser-panel .panel-content {
-        min-height: 150px !important;
+    .panel-content {
         overflow-y: auto !important;
         padding: 10px !important;
     }
@@ -446,7 +443,6 @@ h1 {
     /* 詳細信息面板內容區域特殊處理 */
     .details-panel .panel-content {
         max-height: none !important;
-        min-height: 250px !important;
     }
     
     /* 優化標題顯示 */
@@ -550,17 +546,21 @@ h1 {
         height: 80vh !important;
     }
     
-    .seasons-panel,
-    .chapters-panel,
-    .missions-panel {
+    #seasons-panel.seasons-panel,
+    #chapters-panel.chapters-panel,
+    #missions-panel.missions-panel {
         width: 32% !important;
-        min-height: 150px !important;
+        max-width: 32% !important;
+        min-width: 32% !important;
+        flex: 1 1 auto !important;
         max-height: 70vh !important;
     }
     
-    .details-panel {
+    #details-panel.details-panel {
         width: 100% !important;
-        min-height: 120px !important;
+        max-width: 100% !important;
+        min-width: 100% !important;
+        flex: 0 0 auto !important;
         max-height: 25vh !important;
     }
     
