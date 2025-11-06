@@ -373,7 +373,9 @@ h1 {
     padding-left: 22px;
 }
 
-/* 手機適配樣式 - 提高優先級 */
+/* 將手機媒體查詢移到檔案的最後，確保它覆蓋所有之前的樣式 */
+
+/* 手機適配樣式 - 放在檔案最後 */
 @media (max-width: 768px) {
     body {
         padding: 10px !important;
@@ -397,39 +399,43 @@ h1 {
         overflow-y: auto !important;
     }
     
-    /* 強制所有面板全寬度 - 使用更具體的選擇器 */
-    #seasons-panel.seasons-panel,
-    #chapters-panel.chapters-panel,
-    #missions-panel.missions-panel,
-    #details-panel.details-panel {
+    /* 關鍵修正：直接重置所有面板的寬度 */
+    .seasons-panel,
+    .chapters-panel,
+    .missions-panel,
+    .details-panel {
         width: 100% !important;
         max-width: 100% !important;
         min-width: 100% !important;
+        flex: 0 0 auto !important;
     }
     
-    /* 或者使用更直接的方法 */
-    .browser-container > .browser-panel {
+    /* 確保沒有其他選擇器覆蓋 */
+    #seasons-panel,
+    #chapters-panel,
+    #missions-panel,
+    #details-panel {
         width: 100% !important;
         max-width: 100% !important;
         min-width: 100% !important;
     }
     
     /* 為每個面板設置順序 */
-    #seasons-panel.seasons-panel {
+    .seasons-panel {
         order: 1 !important;
     }
     
-    #chapters-panel.chapters-panel {
+    .chapters-panel {
         order: 2 !important;
     }
     
-    #missions-panel.missions-panel {
+    .missions-panel {
         order: 3 !important;
     }
     
-    #details-panel.details-panel {
+    .details-panel {
         order: 4 !important;
-        flex: 1 1 auto !important; /* 詳情面板可以伸縮 */
+        flex: 1 1 auto !important;
     }
     
     /* 優化面板內容區域 */
@@ -462,7 +468,6 @@ h1 {
         min-height: 44px !important;
         display: flex !important;
         align-items: center !important;
-        width: 100% !important;
     }
     
     /* 優化詳細信息顯示 */
@@ -519,7 +524,6 @@ h1 {
         user-select: none !important;
         cursor: pointer !important;
         transition: all 0.2s ease !important;
-        width: 100% !important;
     }
     
     /* 觸摸反饋 */
@@ -528,7 +532,6 @@ h1 {
     .mission-item:active {
         background-color: #e0e0e0 !important;
         transform: scale(0.98) !important;
-        width: 100% !important;
     }
     
     /* 激活狀態優化 */
@@ -547,9 +550,9 @@ h1 {
         height: 80vh !important;
     }
     
-    #seasons-panel.seasons-panel,
-    #chapters-panel.chapters-panel,
-    #missions-panel.missions-panel {
+    .seasons-panel,
+    .chapters-panel,
+    .missions-panel {
         width: 32% !important;
         max-width: 32% !important;
         min-width: 32% !important;
@@ -557,7 +560,7 @@ h1 {
         max-height: 70vh !important;
     }
     
-    #details-panel.details-panel {
+    .details-panel {
         width: 100% !important;
         max-width: 100% !important;
         min-width: 100% !important;
