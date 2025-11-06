@@ -442,6 +442,7 @@ h1 {
     .panel-content {
         overflow-y: auto !important;
         padding: 10px !important;
+        min-height: 120px;
     }
     
     /* 詳細信息面板內容區域特殊處理 */
