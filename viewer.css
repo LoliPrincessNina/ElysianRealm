@@ -373,130 +373,131 @@ h1 {
     padding-left: 22px;
 }
 
-/* 手機適配樣式 */
+/* 手機適配樣式 - 提高優先級 */
 @media (max-width: 768px) {
     body {
-        padding: 10px;
-        height: auto;
-        min-height: 100vh;
-        overflow-y: auto;
+        padding: 10px !important;
+        height: auto !important;
+        min-height: 100vh !important;
+        overflow-y: auto !important;
     }
     
     .container {
-        height: auto;
-        min-height: 100vh;
-        overflow-y: auto;
+        height: auto !important;
+        min-height: 100vh !important;
+        overflow-y: auto !important;
     }
     
     /* 四欄變四行的關鍵修改 */
     .browser-container {
-        flex-direction: column;
-        gap: 10px;
-        height: auto;
-        min-height: 80vh;
-        overflow-y: auto;
+        flex-direction: column !important;
+        gap: 10px !important;
+        height: auto !important;
+        min-height: 80vh !important;
+        overflow-y: auto !important;
     }
     
-    /* 所有面板改為全寬度 */
-    .browser-panel {
+    /* 所有面板改為全寬度 - 使用更具體的選擇器 */
+    .browser-container .browser-panel {
         width: 100% !important;
         max-width: 100% !important;
-        height: auto;
-        min-height: 200px;
-        max-height: none;
-        flex-shrink: 0;
+        height: auto !important;
+        min-height: 200px !important;
+        max-height: none !important;
+        flex-shrink: 0 !important;
     }
     
     /* 為每個面板設置不同的最小高度 */
-    .seasons-panel {
+    .browser-container .seasons-panel {
         width: 100% !important;
-        max-width: fit-content !important;
-        min-height: 300px;
-        order: 1;
+        max-width: 100% !important;
+        min-height: 200px !important;
+        order: 1 !important;
     }
     
-    .chapters-panel {
+    .browser-container .chapters-panel {
         width: 100% !important;
-        max-width: fit-content !important;
-        min-height: 300px;
-        order: 2;
+        max-width: 100% !important;
+        min-height: 200px !important;
+        order: 2 !important;
     }
     
-    .missions-panel {
+    .browser-container .missions-panel {
         width: 100% !important;
-        max-width: fit-content !important;
-        min-height: 300px;
-        order: 3;
+        max-width: 100% !important;
+        min-height: 200px !important;
+        order: 3 !important;
     }
     
-    .details-panel {
-        min-height: 1000px;
-        order: 4;
-        flex: 1;
+    .browser-container .details-panel {
+        width: 100% !important;
+        min-height: 300px !important;
+        order: 4 !important;
+        flex: 1 !important;
     }
     
     /* 優化面板內容區域 */
-    .panel-content {
-        min-height: 150px;
-        overflow-y: auto;
-        padding: 10px;
+    .browser-panel .panel-content {
+        min-height: 150px !important;
+        overflow-y: auto !important;
+        padding: 10px !important;
     }
     
     /* 詳細信息面板內容區域特殊處理 */
     .details-panel .panel-content {
-        max-height: none;
-        min-height: 200px;
+        max-height: none !important;
+        min-height: 250px !important;
     }
     
     /* 優化標題顯示 */
     h1 {
-        font-size: 1.5rem;
-        line-height: 1.3;
+        font-size: 1.5rem !important;
+        line-height: 1.3 !important;
     }
     
     .subtitle {
-        font-size: 0.9rem;
+        font-size: 0.9rem !important;
     }
     
     /* 優化列表項目 */
     .season-item, 
     .chapter-item, 
     .mission-item {
-        padding: 12px 15px;
-        font-size: 0.9rem;
-        min-height: 44px;
-        display: flex;
-        align-items: center;
+        padding: 12px 15px !important;
+        font-size: 0.9rem !important;
+        min-height: 44px !important;
+        display: flex !important;
+        align-items: center !important;
     }
     
     /* 優化詳細信息顯示 */
     .mission-title {
-        font-size: 1.2rem;
-        padding: 10px 15px;
-        width: 100%;
-        min-width: auto;
-        text-align: center;
-        margin-bottom: 10px;
+        font-size: 1.2rem !important;
+        padding: 10px 15px !important;
+        width: 100% !important;
+        min-width: auto !important;
+        text-align: center !important;
+        margin-bottom: 10px !important;
     }
     
     .mission-detail-item {
-        flex-direction: column;
-        align-items: flex-start;
-        margin-bottom: 8px;
+        flex-direction: column !important;
+        align-items: flex-start !important;
+        margin-bottom: 8px !important;
     }
     
     .mission-detail-label {
-        min-width: auto;
-        margin-bottom: 3px;
-        font-size: 0.9rem;
+        min-width: auto !important;
+        margin-bottom: 3px !important;
+        font-size: 0.9rem !important;
     }
     
     /* 優化代碼和路徑顯示 */
     .task-code,
     .file-path,
     .condition-item {
-        font-size: 0.85rem;
-        word-break: break-word;
+        font-size: 0.85rem !important;
+        word-break: break-word !important;
     }
     
     /* 優化條件顯示 */
@@ -511,95 +512,95 @@ h1 {
     
     /* 優化徽章顯示 */
     .badge {
-        font-size: 0.75rem;
-        padding: 2px 6px;
+        font-size: 0.75rem !important;
+        padding: 2px 6px !important;
     }
     
     /* 改善觸摸體驗 */
     .season-item, 
     .chapter-item, 
     .mission-item {
-        -webkit-tap-highlight-color: rgba(0, 0, 0, 0.1);
-        user-select: none;
-        cursor: pointer;
-        transition: all 0.2s ease;
+        -webkit-tap-highlight-color: rgba(0, 0, 0, 0.1) !important;
+        user-select: none !important;
+        cursor: pointer !important;
+        transition: all 0.2s ease !important;
     }
     
     /* 觸摸反饋 */
     .season-item:active, 
     .chapter-item:active, 
     .mission-item:active {
-        background-color: #e0e0e0;
-        transform: scale(0.98);
+        background-color: #e0e0e0 !important;
+        transform: scale(0.98) !important;
     }
     
     /* 激活狀態優化 */
     .season-item.active, 
     .chapter-item.active, 
     .mission-item.active {
-        transform: none;
+        transform: none !important;
     }
 }
 
 /* 橫屏模式下的特殊處理 */
 @media (max-width: 768px) and (orientation: landscape) {
     .browser-container {
-        flex-direction: row;
-        flex-wrap: wrap;
-        height: 80vh;
+        flex-direction: row !important;
+        flex-wrap: wrap !important;
+        height: 80vh !important;
     }
     
     .seasons-panel,
     .chapters-panel,
     .missions-panel {
         width: 32% !important;
-        min-height: 150px;
-        max-height: 70vh;
+        min-height: 150px !important;
+        max-height: 70vh !important;
     }
     
     .details-panel {
         width: 100% !important;
-        min-height: 120px;
-        max-height: 25vh;
+        min-height: 120px !important;
+        max-height: 25vh !important;
     }
     
     .panel-content {
-        max-height: 120px;
+        max-height: 120px !important;
     }
     
     .details-panel .panel-content {
-        max-height: 100px;
+        max-height: 100px !important;
     }
 }
 
 /* 超小屏幕手機 */
 @media (max-width: 480px) {
     body {
-        padding: 5px;
+        padding: 5px !important;
     }
     
     .browser-container {
-        gap: 8px;
+        gap: 8px !important;
     }
     
     .panel-header {
-        padding: 10px 12px;
-        font-size: 0.9rem;
+        padding: 10px 12px !important;
+        font-size: 0.9rem !important;
     }
     
     .panel-content {
-        padding: 8px;
+        padding: 8px !important;
     }
     
     .season-item, 
     .chapter-item, 
     .mission-item {
-        padding: 10px 12px;
-        font-size: 0.85rem;
+        padding: 10px 12px !important;
+        font-size: 0.85rem !important;
     }
     
     .mission-title {
-        font-size: 1.1rem;
-        padding: 8px 12px;
+        font-size: 1.1rem !important;
+        padding: 8px 12px !important;
     }
 }
