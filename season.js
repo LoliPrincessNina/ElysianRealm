@@ -11,11 +11,7 @@ export const seasons = [
                     {
                         "code": "info_mission_placeholder",
                         "name": "",
-                        "maxPlayers": 8,
-                        "minPlayers": 1,
-                        "useAbility": 2,
                         "open": false,
-                        "file": null,
                         "camp": [
                             "royal",
                             "skydow",
@@ -49,11 +45,7 @@ export const seasons = [
                     {
                         "code": "info_singleplayer_battle_simulation",
                         "name": "⚔️ 對戰模擬",
-                        "maxPlayers": 1,
-                        "minPlayers": 1,
-                        "useAbility": 2,
                         "open": true,
-                        "file": null,
                         "camp": [
                             "royal",
                             "skydow",
@@ -131,11 +123,7 @@ export const seasons = [
                     {
                         "code": "info_singleplayer_bullet_hell",
                         "name": "🏹 槍林彈雨",
-                        "maxPlayers": 1,
-                        "minPlayers": 1,
-                        "useAbility": 2,
                         "open": true,
-                        "file": null,
                         "camp": [
                             "royal",
                             "skydow",
@@ -215,11 +203,7 @@ export const seasons = [
                     {
                         "code": "info_singleplayer_flawless_blade",
                         "name": "🗡️ 刀光劍影",
-                        "maxPlayers": 1,
-                        "minPlayers": 1,
-                        "useAbility": 2,
                         "open": true,
-                        "file": null,
                         "camp": [
                             "royal",
                             "skydow",
@@ -305,11 +289,7 @@ export const seasons = [
                     {
                         "code": "info_singleplayer_kongfu_practice",
                         "name": "✊🏻 武道修行",
-                        "maxPlayers": 1,
-                        "minPlayers": 1,
-                        "useAbility": 2,
                         "open": true,
-                        "file": null,
                         "camp": [
                             "royal",
                             "skydow",
@@ -393,11 +373,7 @@ export const seasons = [
                     {
                         "code": "info_singleplayer_survival_mode",
                         "name": "⏳ 生存模式",
-                        "maxPlayers": 1,
-                        "minPlayers": 1,
-                        "useAbility": 2,
                         "open": true,
-                        "file": null,
                         "camp": [
                             "royal",
                             "skydow",
@@ -477,11 +453,7 @@ export const seasons = [
                     {
                         "code": "info_singleplayer_slaughter_field",
                         "name": "🔪 殺戮戰場",
-                        "maxPlayers": 1,
-                        "minPlayers": 1,
-                        "useAbility": 2,
                         "open": true,
-                        "file": null,
                         "camp": [
                             "royal",
                             "skydow",
@@ -562,11 +534,7 @@ export const seasons = [
                     {
                         "code": "info_singleplayer_flag_snatch",
                         "name": "🚩 搶旗模式",
-                        "maxPlayers": 1,
-                        "minPlayers": 1,
-                        "useAbility": 2,
                         "open": true,
-                        "file": null,
                         "camp": [
                             "royal",
                             "skydow",
@@ -648,11 +616,7 @@ export const seasons = [
                     {
                         "code": "info_singleplayer_zombie_invasion",
                         "name": "🌘 殭屍來襲",
-                        "maxPlayers": 1,
-                        "minPlayers": 1,
-                        "useAbility": 2,
                         "open": true,
-                        "file": null,
                         "camp": [
                             "royal",
                             "skydow",
@@ -771,147 +735,22 @@ export const seasons = [
                 ]
             },
             {
-                "code": "fanissions",
-                "name": "同人陣",
-                "open": true,
-                "badgeCodes": [
-                    "fanissions_riurivalley",
-                    "fanissions_astraeafortress",
-                    "fanissions_soulcatcher",
-                    "minigames_zombieapocalypse",
-                    "minigames_zombieapocalypse_month",
-                    "minigames_zombieapocalypse_rage",
-                    "minigames_zombieapocalypse_zomboss",
-                    "minigames_unwelcomeschool"
-                ],
-                "description": [
-                    "隨興發揮、即意創作。",
-                    "獨樂樂不如眾樂樂。"
-                ],
-                "missions": [
-                    {
-                        "code": "riurivalley",
-                        "name": "璃谷",
-                        "maxPlayers": 8,
-                        "minPlayers": 1,
-                        "useAbility": 2,
-                        "open": true,
-                        "file": "CG.FlowerFairyPalace/missions/fanissions/riurivalley.events",
-                        "camp": [
-                            "royal",
-                            "skydow",
-                            "third"
-                        ],
-                        "description": [
-                            "『璃谷』內似乎出了異變。",
-                            "多方勢力商量後，決定暫休爭鬥，聯合派出一支偵查隊伍查看情況。",
-                            "而作為偵察隊的你，被派往璃谷。",
-                            "　",
-                            "<table width=425px> <tr><th width=100px> <font color=#32C432>主要目標</font> </th><td> 進入璃谷 </td></tr> <tr><th> 參與陣營 </th><td> <font color=gold>皇家騎士團</font>、<font color=red>天影十字軍</font>、<font color=orange>第三勢力</font> <br> <font color=pink>花靈宮</font>、<font color=lime>盜賊幫</font>、<font color=magenta>無魂軍</font>、<font color=aqua>智械兵團</font> </td></tr> <tr><th> 參與人數 </th><td> 1-8人 </td></tr> <tr><th> 近武能力 </th><td> 開放玩家使用所有等級的近武能力 </td></tr> </table>"
-                        ]
-                    },
-                    {
-                        "code": "astraeafortress",
-                        "name": "若涉渊冰",
-                        "maxPlayers": 5,
-                        "minPlayers": 1,
-                        "useAbility": 2,
-                        "open": true,
-                        "file": "CG.FlowerFairyPalace/missions/fanissions/astraeafortress.events",
-                        "camp": [
-                            "royal",
-                            "skydow",
-                            "third"
-                        ],
-                        "description": [
-                            "『冰的光芒劃破黑暗、冰的溫度凍結生命、冰的劍刃左右世界』。",
-                            "有關上古兵器冰劍的歌謠，傳說從此地產生。",
-                            "取得冰劍真正力量的你們，決定探索阿斯特賴亞要塞，尋找更多有關於冰劍的秘密。",
-                            "　",
-                            "<table width=425px> <tr><th width=100px> <font color=#32C432>主要目標</font> </th><td> 探索阿斯特賴亞要塞 </td></tr> <tr><th> 參與陣營 </th><td> <font color=gold>皇家騎士團</font>、<font color=red>天影十字軍</font>、<font color=orange>第三勢力</font> <br> <font color=pink>花靈宮</font>、<font color=lime>盜賊幫</font> </td></tr> <tr><th> 參與人數 </th><td> 1-5人 </td></tr> <tr><th> 近武能力 </th><td> 開放玩家使用所有等級的近武能力 </td></tr> </table>"
-                        ]
-                    },
-                    {
-                        "code": "soulcatcher",
-                        "name": "勾魂索命",
-                        "maxPlayers": 8,
-                        "minPlayers": 1,
-                        "useAbility": 2,
-                        "open": true,
-                        "file": "CG.FlowerFairyPalace/missions/fanissions/soulcatcher.events",
-                        "camp": [
-                            "royal",
-                            "skydow",
-                            "third"
-                        ],
-                        "description": [
-                            "你知道嗎，當有人嘗試復活人時，施術者將會被冥界標記，也許在什麼時候就在夢中將你的精魂氣魄全部勾走。",
-                            "冥王只讓你成為活死人而不是墜入十八層地獄，已是最大的仁慈。",
-                            "當然，要是你能成功活下來的話，那這次的罪孽就一筆勾消。",
-                            "　",
-                            "<table width=425px> <tr><th width=100px> <font color=#32C432>主要目標</font> </th><td> 魂來歸兮 </td></tr> <tr><th> 參與陣營 </th><td> <font color=gold>皇家騎士團</font>、<font color=red>天影十字軍</font>、<font color=orange>第三勢力</font> <br> <font color=pink>花靈宮</font>、<font color=lime>盜賊幫</font>、<font color=magenta>無魂軍</font>、<font color=aqua>智械兵團</font> </td></tr> <tr><th> 參與人數 </th><td> 1-8人 </td></tr> <tr><th> 近武能力 </th><td> 開放玩家使用所有等級的近武能力 </td></tr> </table>"
-                        ]
-                    },
-                    {
-                        "code": "zombieapocalypse",
-                        "name": "亡城遊魂",
-                        "maxPlayers": 8,
-                        "minPlayers": 1,
-                        "useAbility": 2,
-                        "open": true,
-                        "file": "CG.FlowerFairyPalace/missions/fanissions/zombieapocalypse.events",
-                        "camp": [
-                            "royal",
-                            "skydow",
-                            "third"
-                        ],
-                        "description": [
-                            "禁忌病毒因失誤而從實驗室中洩露，大量人們被轉化為殭屍。",
-                            "末日降臨，四處皆成廢墟。",
-                            "作為幸存者的你們，究竟還能堅持多久？",
-                            "　",
-                            "<table width=425px> <tr><th width=100px> <font color=#32C432>主要目標</font> </th><td> 存活至第十天天明 </td></tr> <tr><th> 參與陣營 </th><td> <font color=gold>皇家騎士團</font>、<font color=red>天影十字軍</font>、<font color=orange>第三勢力</font> <br> <font color=pink>花靈宮</font>、<font color=lime>盜賊幫</font>、<font color=magenta>無魂軍</font>、<font color=aqua>智械兵團</font> </td></tr> <tr><th> 參與人數 </th><td> 1-8人 </td></tr> <tr><th> 近武能力 </th><td> 開放玩家使用所有等級的近武能力 </td></tr> </table>"
-                        ]
-                    },
-                    {
-                        "code": "unwelcomeschool",
-                        "name": "搶劫黑市銀行",
-                        "maxPlayers": 6,
-                        "minPlayers": 1,
-                        "useAbility": 2,
-                        "open": true,
-                        "file": "CG.FlowerFairyPalace/missions/fanissions/unwelcomeschool.events",
-                        "camp": [
-                            "royal",
-                            "skydow",
-                            "third"
-                        ],
-                        "description": [
-                            "對策委員會發現了她們辛苦打工替校還債的金錢全都流向了攻擊她們學校的團體手中。",
-                            "在調查後發現，這家銀行是金錢流向的必經之地。不用多問，這家銀行必然是為黑色團體所操蹤的。",
-                            "是時候將這些金錢奪回來了！",
-                            "　",
-                            "<table width=425px> <tr><th width=100px> <font color=#32C432>主要目標</font> </th><td> 將資金劫走並全身而退 </td></tr> <tr><th> 參與陣營 </th><td> <font color=gold>皇家騎士團</font>、<font color=red>天影十字軍</font>、<font color=orange>第三勢力</font> <br> <font color=pink>花靈宮</font>、<font color=lime>盜賊幫</font>、<font color=magenta>無魂軍</font>、<font color=aqua>智械兵團</font> </td></tr> <tr><th> 參與人數 </th><td> 1-6人 </td></tr> <tr><th> 近武能力 </th><td> 開放玩家使用所有等級的近武能力 </td></tr> </table>"
-                        ]
-                    }
-                ]
-            },
-            {
                 "code": "biography",
                 "name": "人物傳記",
                 "open": true,
                 "description": [
-                    "包含一些人物在主線中未明言的經歷。"
+                    "時光的角落裡，藏著未被訴說的故事。",
+                    "這些篇章，記錄了英雄們在鎂光燈照不到的陰影處，",
+                    "那些沉默的抉擇、無人知曉的犧牲、與內心深處的對話。",
+                    "這裡沒有史詩戰役的喧囂，只有靈魂的真實樣貌，",
+                    "以及……那些被刻意遺忘，卻決定了命運走向的瞬間。",
+                    "當你讀懂這些沉默，便讀懂了他們的一生。"
                 ],
                 "missions": [
                     {
                         "code": "info_biography_kanetsugu",
                         "name": "💉 本川兼次",
-                        "maxPlayers": 4,
-                        "minPlayers": 1,
-                        "useAbility": 2,
                         "open": true,
-                        "file": null,
                         "camp": [
                             "royal",
                             "skydow",
@@ -947,6 +786,1031 @@ export const seasons = [
                             "傭兵團給你任務就是找出任何方法，穿過紫雲嶺，去到紫雲嶺另一邊的八手吉娜駐地的之一，把這封信交給在此陣地駐守八手副手—紋。",
                             "　",
                             "<table width=425px> <tr><th width=100px> <font color=#32C432>主要目標</font> </th><td> 尋找穿越紫雲嶺的方法 </td></tr> <tr><th> 參與陣營 </th><td> <font color=orange>第三勢力</font> </td></tr> <tr><th> 參與人數 </th><td> 1-4人 </td></tr> <tr><th> 近武能力 </th><td> 開放玩家使用所有等級的近武能力 </td></tr> </table>"
+                        ]
+                    }
+                ]
+            },
+            {
+                "code": "fanissions",
+                "name": "靈感迴廊",
+                "open": true,
+                "badgeCodes": [
+                    "fanissions_riurivalley",
+                    "fanissions_astraeafortress",
+                    "fanissions_soulcatcher",
+                    "minigames_zombieapocalypse",
+                    "minigames_zombieapocalypse_month",
+                    "minigames_zombieapocalypse_rage",
+                    "minigames_zombieapocalypse_zomboss",
+                    "minigames_unwelcomeschool"
+                ],
+                "description": [
+                    "這裡收藏著靈感閃現的瞬間。",
+                    "漫步於此並見證想法的萌芽與綻放吧。"
+                ],
+                "missions": [
+                    {
+                        "code": "atlantisaction",
+                        "name": "亞特蘭提斯",
+                        "maxPlayers": 8,
+                        "minPlayers": 1,
+                        "useAbility": 2,
+                        "open": true,
+                        "camp": [
+                            "royal",
+                            "skydow",
+                            "third"
+                        ],
+                        "description": [
+                            "古城—亞特蘭提斯。一座傳說中的水底城市。",
+                            "為何突然浮上水面的原因不明，但這或許藏有古代遺跡和寶藏的古城已經被帝國先一步佔領了。",
+                            "作為傭兵團的一份子，請跟隨你們的上級一起進攻，擊敗帝國軍隊。",
+                            "　",
+                            "<table width=425px> <tr><th width=100px> <font color=#32C432>主要目標</font> </th><td> 進入亞特蘭提斯 </td></tr> <tr><th> <font color=red>失敗條件</font> </th><td> 隨緣陣亡<br>茶茶陣亡 </td></tr> <tr><th> 參與陣營 </th><td> <font color=gold>皇家騎士團</font>、<font color=red>天影十字軍</font>、<font color=orange>第三勢力</font> <br> <font color=pink>花靈宮</font>、<font color=lime>盜賊幫</font>、<font color=magenta>無魂軍</font>、<font color=aqua>智械兵團</font> </td></tr> <tr><th> 參與人數 </th><td> 1-8人 </td></tr> <tr><th> 近武能力 </th><td> 開放玩家使用所有等級的近武能力 </td></tr> </table>"
+                        ]
+                    },
+                    {
+                        "code": "aurorapolaris",
+                        "name": "破曉夕曦",
+                        "maxPlayers": 8,
+                        "minPlayers": 1,
+                        "useAbility": 2,
+                        "open": true,
+                        "camp": [
+                            "royal",
+                            "skydow",
+                            "third"
+                        ],
+                        "description": [
+                            "歐若拉是一位美麗的女神。作為【曙光女神】，她掌管晨光，代表旭日东升前的黎明。",
+                            "每天早晨时分，她都會飞向天空，向大地宣布黎明的来臨。",
+                            "　",
+                            "然而，有一天，這一切突然被歐若拉的妹妹，【月亮女神】露娜，奪走了。",
+                            "【惡作劇之神】洛基，在一次實驗失誤之下，將裝有一種他打算放到凡間的病毒，「緋」，的瓶子打翻到了地上。",
+                            "恰巧來到此處拜訪的露娜因而染上了。",
+                            "發狂的露娜不知道為什麼，突然闖入了【極光虛境】，把歐若拉趕了出來。",
+                            "失去主控權的歐若拉失去了神職，神力無以為繼。",
+                            "在【眾神之父】奧丁的引導下，歐若拉來到了凡間召集了數名勇士，協助歐若拉取回【極光虛境】。",
+                            "　",
+                            "要取回【極光虛境】，便得深入到虛境的最深處，「曙光」，打敗發狂的露娜。",
+                            "洛基雖然已經成功配制解藥，但發狂的露娜是不可能願意服下的，只得先將她打暈。",
+                            "洛基還發現，他領下的一片凍土，大量埋藏於此的大體都神奇消失了。",
+                            "不用多說，這些大體已然復活，成為如今【極光虛境】的守衛了。",
+                            "在得到虛境的【晨曦祝福】後，這些守衛能夠短暫地擁有生前的實力。",
+                            "　",
+                            "花費了萬分功夫，歐若拉總算成功召集到勇士了。現在，便是帶領勇士前往【極光虛境】的時候了。",
+                            "　",
+                            "<table width=425px> <tr><th width=100px> <font color=#32C432>主要目標</font> </th><td> 擊敗露娜 </td></tr> <tr><th> 參與陣營 </th><td> <font color=gold>皇家騎士團</font>、<font color=red>天影十字軍</font>、<font color=orange>第三勢力</font> <br> <font color=pink>花靈宮</font>、<font color=lime>盜賊幫</font>、<font color=magenta>無魂軍</font>、<font color=aqua>智械兵團</font> </td></tr> <tr><th> 參與人數 </th><td> 1-8人 </td></tr> <tr><th> 近武能力 </th><td> 限用一般近武能力 </td></tr> </table>"
+                        ]
+                    },
+                    {
+                        "code": "besiegingcity",
+                        "name": "圍城之危",
+                        "maxPlayers": 8,
+                        "minPlayers": 1,
+                        "useAbility": 2,
+                        "open": true,
+                        "camp": [
+                            "royal",
+                            "skydow",
+                            "third"
+                        ],
+                        "description": [
+                            "烽火連天，孤城告急！敵軍如潮水般從四面八方湧來，",
+                            "城牆搖搖欲墜，守軍傷亡慘重，最後的希望繫於此戰。",
+                            "這不僅是城池的保衛戰，更是你們的存亡之戰！",
+                            "在絕境中殺出一條血路，為了榮耀，為了生存！",
+                            "　",
+                            "<table width=425px> <tr><th width=100px> <font color=#32C432>主要目標</font> </th><td> 奪回城池 </td></tr> <tr><th> 參與陣營 </th><td> <font color=gold>皇家騎士團</font>、<font color=red>天影十字軍</font>、<font color=orange>第三勢力</font> <br> <font color=pink>花靈宮</font>、<font color=lime>盜賊幫</font>、<font color=magenta>無魂軍</font>、<font color=aqua>智械兵團</font> </td></tr> <tr><th> 參與人數 </th><td> 1-8人 </td></tr> <tr><th> 近武能力 </th><td> 開放玩家使用所有等級的近武能力 </td></tr> </table>"
+                        ]
+                    },
+                    {
+                        "code": "celebritiesduel",
+                        "name": "人物挑戰",
+                        "maxPlayers": 8,
+                        "minPlayers": 1,
+                        "useAbility": 2,
+                        "open": true,
+                        "camp": [
+                            "royal",
+                            "skydow",
+                            "third"
+                        ],
+                        "description": [
+                            "直面傳奇，挑戰自我極限。",
+                            "沒有取巧的餘地，唯有純粹的實力碰撞。",
+                            "　",
+                            "<table width=425px> <tr><th width=100px> <font color=#32C432>主要目標</font> </th><td> 擊敗所有人物 </td></tr> <tr><th> 參與陣營 </th><td> <font color=gold>皇家騎士團</font>、<font color=red>天影十字軍</font>、<font color=orange>第三勢力</font> <br> <font color=pink>花靈宮</font>、<font color=lime>盜賊幫</font>、<font color=magenta>無魂軍</font>、<font color=aqua>智械兵團</font> </td></tr> <tr><th> 參與人數 </th><td> 1-8人 </td></tr> <tr><th> 近武能力 </th><td> 開放玩家使用所有等級的近武能力 </td></tr> </table>"
+                        ]
+                    },
+                    {
+                        "code": "coastalbattle",
+                        "name": "海岸激戰",
+                        "maxPlayers": 8,
+                        "minPlayers": 1,
+                        "useAbility": 2,
+                        "open": true,
+                        "file": "CG.FlowerFairyPalace/missions/fanissions/coastalbattle.events",
+                        "camp": [
+                            "royal",
+                            "skydow",
+                            "third"
+                        ],
+                        "description": [
+                            "烈日下的金色沙灘已成血腥戰場！",
+                            "幫會與帝國海軍為爭奪海岸控制權要地展開激烈交鋒。",
+                            "海浪拍打著染血的岸邊，砲火轟鳴聲與刀劍碰撞聲交織成死亡交響曲。",
+                            "這片海岸不僅是登陸點，更是通往秘寶的關鍵門戶！",
+                            "為了幫會的榮耀，為了自由與財富，戰至最後一刻！",
+                            "　",
+                            "<table width=425px> <tr><th width=100px> <font color=#32C432>主要目標</font> </th><td> 奪取海岸控制權 </td></tr> <tr><th> 參與陣營 </th><td> <font color=lime>盜賊幫</font> </td></tr> <tr><th> 參與人數 </th><td> 1-8人 </td></tr> <tr><th> 近武能力 </th><td> 開放玩家使用所有等級的近武能力 </td></tr> </table>"
+                        ]
+                    },
+                    {
+                        "code": "insidemyself",
+                        "name": "雙生鏡域",
+                        "maxPlayers": 1,
+                        "minPlayers": 1,
+                        "useAbility": 2,
+                        "open": true,
+                        "camp": [
+                            "royal",
+                            "skydow",
+                            "third"
+                        ],
+                        "description": [
+                            "當你凝視深淵，深淵也凝視著你。",
+                            "此刻站在對面的，是最熟悉卻也最陌生的敵人——",
+                            "鏡中的自己，擁有你的一切技巧與記憶，",
+                            "卻懷抱著你從未察覺的陰暗與執念。",
+                            "這是一場與內心陰影的終極對話，",
+                            "唯有戰勝自我，方能破鏡而出，領悟真實。",
+                            "　",
+                            "<table width=425px> <tr><th width=100px> <font color=#32C432>主要目標</font> </th><td> 擊敗鏡像 </td></tr> <tr><th> 參與陣營 </th><td> <font color=gold>皇家騎士團</font>、<font color=red>天影十字軍</font>、<font color=orange>第三勢力</font> </td></tr> <tr><th> 參與人數 </th><td> 1人 </td></tr> <tr><th> 近武能力 </th><td> 開放玩家使用所有等級的近武能力 </td></tr> </table>"
+                        ]
+                    },
+                    {
+                        "code": "loneranger",
+                        "name": "獨行者",
+                        "maxPlayers": 8,
+                        "minPlayers": 1,
+                        "useAbility": 2,
+                        "open": true,
+                        "camp": [
+                            "royal",
+                            "skydow",
+                            "third"
+                        ],
+                        "description": [
+                            "帝國、議會及傭兵團的包圍網正在收緊，每個角落都潛藏著致命的危機。",
+                            "沒有盟友可以依靠，沒有後援可以期待。",
+                            "在這場一個人的戰爭中，你唯一的武器就是自己的意志。",
+                            "突破重圍，證明孤狼也能在絕境中殺出屬於自己的道路！",
+                            "　",
+                            "<table width=425px> <tr><th width=100px> <font color=#32C432>主要目標</font> </th><td> 逃離包圍網 </td></tr> <tr><th> 參與陣營 </th><td> <font color=gold>皇家騎士團</font>、<font color=red>天影十字軍</font>、<font color=orange>第三勢力</font> <br> <font color=pink>花靈宮</font>、<font color=lime>盜賊幫</font>、<font color=magenta>無魂軍</font>、<font color=aqua>智械兵團</font> </td></tr> <tr><th> 參與人數 </th><td> 1-8人 </td></tr> <tr><th> 近武能力 </th><td> 開放玩家使用所有等級的近武能力 </td></tr> </table>"
+                        ]
+                    },
+                    {
+                        "code": "prisonescape",
+                        "name": "逃離監獄",
+                        "maxPlayers": 8,
+                        "minPlayers": 1,
+                        "useAbility": 2,
+                        "open": true,
+                        "camp": [
+                            "royal",
+                            "skydow",
+                            "third"
+                        ],
+                        "description": [
+                            "你們是因冤枉而入獄的「罪犯」。",
+                            "昨天，你們在守衛口中得知行刑之日將近，為了活著找出真相，你們只能被迫逃獄離開。",
+                            "只是，你們該如何逃出這守衛森嚴的監獄呢？",
+                            "　",
+                            "<table width=425px> <tr><th width=100px> <font color=#32C432>主要目標</font> </th><td> 逃離監獄 </td></tr> <tr><th> 參與陣營 </th><td> <font color=gold>皇家騎士團</font>、<font color=red>天影十字軍</font>、<font color=orange>第三勢力</font> <br> <font color=pink>花靈宮</font>、<font color=lime>盜賊幫</font>、<font color=magenta>無魂軍</font>、<font color=aqua>智械兵團</font> </td></tr> <tr><th> 參與人數 </th><td> 1-8人 </td></tr> <tr><th> 近武能力 </th><td> 開放玩家使用所有等級的近武能力 </td></tr> </table>"
+                        ]
+                    },
+                    {
+                        "code": "radiantglory",
+                        "name": "聖耀之戰",
+                        "maxPlayers": 8,
+                        "minPlayers": 1,
+                        "useAbility": 2,
+                        "open": true,
+                        "camp": [
+                            "royal",
+                            "skydow",
+                            "third"
+                        ],
+                        "description": [
+                            "聖光與暗影在此刻激烈碰撞，世界的命運懸於一線！",
+                            "小哈片刻，世界的造物主、如今的強敵，正以壓倒性的力量君臨戰場。",
+                            "沒有退路，沒有妥協，此刻正是改寫歷史的關鍵時刻！集結所有力量只為這終極一戰。",
+                            "讓聖耀之光驅散黑暗，為這個世界帶來最後的希望！",
+                            "　",
+                            "<table width=425px> <tr><th width=100px> <font color=#32C432>主要目標</font> </th><td> 擊敗小哈片刻 </td></tr> <tr><th> 參與陣營 </th><td> <font color=gold>皇家騎士團</font>、<font color=red>天影十字軍</font>、<font color=orange>第三勢力</font> <br> <font color=pink>花靈宮</font>、<font color=lime>盜賊幫</font>、<font color=magenta>無魂軍</font>、<font color=aqua>智械兵團</font> </td></tr> <tr><th> 參與人數 </th><td> 1-8人 </td></tr> <tr><th> 近武能力 </th><td> 開放玩家使用所有等級的近武能力 </td></tr> </table>"
+                        ]
+                    },
+                    {
+                        "code": "rescueprincess",
+                        "name": "拯救公主",
+                        "maxPlayers": 8,
+                        "minPlayers": 1,
+                        "useAbility": 2,
+                        "open": true,
+                        "camp": [
+                            "royal",
+                            "skydow",
+                            "third"
+                        ],
+                        "description": [
+                            "緊急情況：熒縈公主在幽幻谷附近遭遇伏擊，現已失聯！",
+                            "皇室發出最高懸賞令，目標只有一個——不惜一切代價救回公主！",
+                            "幽幻谷地形險惡，敵軍佈防嚴密，時間就是生命。",
+                            "　",
+                            "<table width=425px> <tr><th width=100px> <font color=#32C432>主要目標</font> </th><td> 拯救熒縈公主 </td></tr> <tr><th> <font color=red>失敗條件</font> </th><td> 公主受重傷而死 </td></tr> <tr><th> 參與陣營 </th><td> <font color=gold>皇家騎士團</font>、<font color=red>天影十字軍</font>、<font color=orange>第三勢力</font> <br> <font color=pink>花靈宮</font>、<font color=lime>盜賊幫</font>、<font color=magenta>無魂軍</font>、<font color=aqua>智械兵團</font> </td></tr> <tr><th> 參與人數 </th><td> 1-8人 </td></tr> <tr><th> 近武能力 </th><td> 開放玩家使用所有等級的近武能力 </td></tr> </table>"
+                        ]
+                    },
+                    {
+                        "code": "riurivalley",
+                        "name": "璃谷",
+                        "maxPlayers": 8,
+                        "minPlayers": 1,
+                        "useAbility": 2,
+                        "open": true,
+                        "file": "CG.FlowerFairyPalace/missions/fanissions/riurivalley.events",
+                        "camp": [
+                            "royal",
+                            "skydow",
+                            "third"
+                        ],
+                        "description": [
+                            "『璃谷』內似乎出了異變。",
+                            "多方勢力商量後，決定暫休爭鬥，聯合派出一支偵查隊伍查看情況。",
+                            "而作為偵察隊的你，被派往璃谷。",
+                            "　",
+                            "<table width=425px> <tr><th width=100px> <font color=#32C432>主要目標</font> </th><td> 進入璃谷 </td></tr> <tr><th> 參與陣營 </th><td> <font color=gold>皇家騎士團</font>、<font color=red>天影十字軍</font>、<font color=orange>第三勢力</font> <br> <font color=pink>花靈宮</font>、<font color=lime>盜賊幫</font>、<font color=magenta>無魂軍</font>、<font color=aqua>智械兵團</font> </td></tr> <tr><th> 參與人數 </th><td> 1-8人 </td></tr> <tr><th> 近武能力 </th><td> 開放玩家使用所有等級的近武能力 </td></tr> </table>"
+                        ]
+                    },
+                    {
+                        "code": "soulcatcher",
+                        "name": "勾魂索命",
+                        "maxPlayers": 8,
+                        "minPlayers": 1,
+                        "useAbility": 2,
+                        "open": true,
+                        "file": "CG.FlowerFairyPalace/missions/fanissions/soulcatcher.events",
+                        "camp": [
+                            "royal",
+                            "skydow",
+                            "third"
+                        ],
+                        "description": [
+                            "你知道嗎，當有人嘗試復活人時，施術者將會被冥界標記，也許在什麼時候就在夢中將你的精魂氣魄全部勾走。",
+                            "冥王只讓你成為活死人而不是墜入十八層地獄，已是最大的仁慈。",
+                            "當然，要是你能成功活下來的話，那這次的罪孽就一筆勾消。",
+                            "　",
+                            "<table width=425px> <tr><th width=100px> <font color=#32C432>主要目標</font> </th><td> 魂來歸兮 </td></tr> <tr><th> 參與陣營 </th><td> <font color=gold>皇家騎士團</font>、<font color=red>天影十字軍</font>、<font color=orange>第三勢力</font> <br> <font color=pink>花靈宮</font>、<font color=lime>盜賊幫</font>、<font color=magenta>無魂軍</font>、<font color=aqua>智械兵團</font> </td></tr> <tr><th> 參與人數 </th><td> 1-8人 </td></tr> <tr><th> 近武能力 </th><td> 開放玩家使用所有等級的近武能力 </td></tr> </table>"
+                        ]
+                    },
+                    {
+                        "code": "crystalsaber",
+                        "name": "霜刃征途",
+                        "maxPlayers": 3,
+                        "minPlayers": 3,
+                        "useAbility": 2,
+                        "open": true,
+                        "camp": [
+                            "royal",
+                            "skydow",
+                            "third"
+                        ],
+                        "description": [
+                            "極北之境傳來遠古神器「冰劍」與「水晶弓」的召喚。",
+                            "勇士們需攜手穿越永凍之地，解開冰封的古老秘密。",
+                            "　",
+                            "<table width=425px> <tr><th width=100px> <font color=#32C432>主要目標</font> </th><td> 合作通過試煉 </td></tr> <tr><th> <font color=red>失敗條件</font> </th><td> 任一試煉者陣亡 </td></tr> <tr><th> 參與陣營 </th><td> <font color=gold>皇家騎士團</font>、<font color=red>天影十字軍</font>、<font color=orange>第三勢力</font> </td></tr> <tr><th> 參與人數 </th><td> 3人 </td></tr> <tr><th> 近武能力 </th><td> 限用一般近武能力 </td></tr> </table>"
+                        ]
+                    },
+                    {
+                        "code": "totemstrial",
+                        "name": "四象試煉",
+                        "maxPlayers": 4,
+                        "minPlayers": 4,
+                        "useAbility": 2,
+                        "open": true,
+                        "file": "CG.FlowerFairyPalace/missions/fanissions/totemstrial.events",
+                        "camp": [
+                            "royal",
+                            "skydow",
+                            "third"
+                        ],
+                        "description": [
+                            "傳說中的四象秘境再度開啟，勇士們需放下成見，同心協力通過試煉。",
+                            "在此秘境中，不同陣營的能力將產生共鳴，創造出意想不到的戰術組合。",
+                            "　",
+                            "<table width=425px> <tr><th width=100px> <font color=#32C432>主要目標</font> </th><td> 合作通過試煉 </td></tr> <tr><th> <font color=red>失敗條件</font> </th><td> 任一試煉者陣亡 </td></tr> <tr><th> 參與陣營 </th><td> <font color=gold>皇家騎士團</font>、<font color=red>天影十字軍</font>、<font color=orange>第三勢力</font> <br> <font color=lime>盜賊幫</font> </td></tr> <tr><th> 參與人數 </th><td> 4人 </td></tr> <tr><th> 近武能力 </th><td> 開放玩家使用所有等級的近武能力 </td></tr> </table>"
+                        ]
+                    },
+                    {
+                        "code": "astraeafortress",
+                        "name": "若涉渊冰",
+                        "maxPlayers": 5,
+                        "minPlayers": 1,
+                        "useAbility": 2,
+                        "open": true,
+                        "file": "CG.FlowerFairyPalace/missions/fanissions/astraeafortress.events",
+                        "camp": [
+                            "royal",
+                            "skydow",
+                            "third"
+                        ],
+                        "description": [
+                            "『冰的光芒劃破黑暗、冰的溫度凍結生命、冰的劍刃左右世界』。",
+                            "有關上古兵器冰劍的歌謠，傳說從此地產生。",
+                            "取得冰劍真正力量的你們，決定探索阿斯特賴亞要塞，尋找更多有關於冰劍的秘密。",
+                            "　",
+                            "<table width=425px> <tr><th width=100px> <font color=#32C432>主要目標</font> </th><td> 探索阿斯特賴亞要塞 </td></tr> <tr><th> 參與陣營 </th><td> <font color=gold>皇家騎士團</font>、<font color=red>天影十字軍</font>、<font color=orange>第三勢力</font> <br> <font color=pink>花靈宮</font>、<font color=lime>盜賊幫</font> </td></tr> <tr><th> 參與人數 </th><td> 1-5人 </td></tr> <tr><th> 近武能力 </th><td> 開放玩家使用所有等級的近武能力 </td></tr> </table>"
+                        ]
+                    },
+                    {
+                        "code": "laststand",
+                        "name": "最終防線",
+                        "maxPlayers": 8,
+                        "minPlayers": 1,
+                        "useAbility": 2,
+                        "open": true,
+                        "file": "CG.FlowerFairyPalace/missions/fanissions/laststand.events",
+                        "camp": [
+                            "royal",
+                            "skydow",
+                            "third"
+                        ],
+                        "description": [
+                            "持續抵禦敵軍浪潮，挑戰你的戰略極限！",
+                            "在這場永不停息的戰鬥中，堅守陣線直至最後一刻。",
+                            "　",
+                            "<table width=425px> <tr><th width=100px> <font color=#32C432>主要目標</font> </th><td> 擊敗至少五十名敵人 </td></tr> <tr><th> 參與陣營 </th><td> <font color=gold>皇家騎士團</font>、<font color=red>天影十字軍</font>、<font color=orange>第三勢力</font> <br> <font color=pink>花靈宮</font>、<font color=lime>盜賊幫</font>、<font color=magenta>無魂軍</font>、<font color=aqua>智械兵團</font> </td></tr> <tr><th> 參與人數 </th><td> 1-8人 </td></tr> <tr><th> 近武能力 </th><td> 開放玩家使用所有等級的近武能力 </td></tr> </table>"
+                        ]
+                    },
+                    {
+                        "code": "medicsecret",
+                        "name": "藥劑的秘密",
+                        "maxPlayers": 8,
+                        "minPlayers": 1,
+                        "useAbility": 2,
+                        "open": true,
+                        "camp": [
+                            "royal",
+                            "skydow",
+                            "third"
+                        ],
+                        "description": [
+                            "你收到了來自世界醫藥公司的委託：潛入保護傘公司，奪取美容藥劑的配方。",
+                            "保護傘公司曾經聲稱他們擁有世界上最高級的防衛，能夠將任何入侵者一擊必殺。",
+                            "這將會是一場惡戰。",
+                            "　",
+                            "<table width=425px> <tr><th width=100px> <font color=#32C432>主要目標</font> </th><td> 取得配方 </td></tr> <tr><th> 參與陣營 </th><td> <font color=gold>皇家騎士團</font>、<font color=red>天影十字軍</font>、<font color=orange>第三勢力</font> <br> <font color=pink>花靈宮</font>、<font color=lime>盜賊幫</font>、<font color=magenta>無魂軍</font>、<font color=aqua>智械兵團</font> </td></tr> <tr><th> 參與人數 </th><td> 1-8人 </td></tr> <tr><th> 近武能力 </th><td> 開放玩家使用所有等級的近武能力 </td></tr> </table>"
+                        ]
+                    },
+                    {
+                        "code": "zombieapocalypse",
+                        "name": "亡城遊魂",
+                        "maxPlayers": 8,
+                        "minPlayers": 1,
+                        "useAbility": 2,
+                        "open": true,
+                        "file": "CG.FlowerFairyPalace/missions/fanissions/zombieapocalypse.events",
+                        "camp": [
+                            "royal",
+                            "skydow",
+                            "third"
+                        ],
+                        "description": [
+                            "禁忌病毒因失誤而從實驗室中洩露，大量人們被轉化為殭屍。",
+                            "末日降臨，四處皆成廢墟。",
+                            "作為幸存者的你們，究竟還能堅持多久？",
+                            "　",
+                            "<table width=425px> <tr><th width=100px> <font color=#32C432>主要目標</font> </th><td> 存活至第十天天明 </td></tr> <tr><th> 參與陣營 </th><td> <font color=gold>皇家騎士團</font>、<font color=red>天影十字軍</font>、<font color=orange>第三勢力</font> <br> <font color=pink>花靈宮</font>、<font color=lime>盜賊幫</font>、<font color=magenta>無魂軍</font>、<font color=aqua>智械兵團</font> </td></tr> <tr><th> 參與人數 </th><td> 1-8人 </td></tr> <tr><th> 近武能力 </th><td> 開放玩家使用所有等級的近武能力 </td></tr> </table>"
+                        ]
+                    },
+                    {
+                        "code": "mazebreaker",
+                        "name": "直與曲之迷宮",
+                        "maxPlayers": 8,
+                        "minPlayers": 1,
+                        "useAbility": 2,
+                        "open": true,
+                        "camp": [
+                            "royal",
+                            "skydow",
+                            "third"
+                        ],
+                        "description": [
+                            "傳說中能夠扭曲時空的古老迷宮再度開啟。",
+                            "直線與曲徑在此交錯難辨，真實與虛幻的邊界變得模糊。",
+                            "唯有洞察空間本質的冒險者，才能在這悖論之境中找到出路。",
+                            "　",
+                            "<table width=425px> <tr><th width=100px> <font color=#32C432>主要目標</font> </th><td> 擊敗迷宮之主 </td></tr> <tr><th> 參與陣營 </th><td> <font color=gold>皇家騎士團</font>、<font color=red>天影十字軍</font>、<font color=orange>第三勢力</font> <br> <font color=pink>花靈宮</font>、<font color=lime>盜賊幫</font>、<font color=magenta>無魂軍</font>、<font color=aqua>智械兵團</font> </td></tr> <tr><th> 參與人數 </th><td> 1-8人 </td></tr> <tr><th> 近武能力 </th><td> 開放玩家使用所有等級的近武能力 </td></tr> </table>"
+                        ]
+                    },
+                    {
+                        "code": "unwelcomeschool",
+                        "name": "搶劫黑市銀行",
+                        "maxPlayers": 6,
+                        "minPlayers": 1,
+                        "useAbility": 2,
+                        "open": true,
+                        "file": "CG.FlowerFairyPalace/missions/fanissions/unwelcomeschool.events",
+                        "camp": [
+                            "royal",
+                            "skydow",
+                            "third"
+                        ],
+                        "description": [
+                            "對策委員會發現了她們辛苦打工替校還債的金錢全都流向了攻擊她們學校的團體手中。",
+                            "在調查後發現，這家銀行是金錢流向的必經之地。不用多問，這家銀行必然是為黑色團體所操蹤的。",
+                            "是時候將這些金錢奪回來了！",
+                            "　",
+                            "<table width=425px> <tr><th width=100px> <font color=#32C432>主要目標</font> </th><td> 將資金劫走並全身而退 </td></tr> <tr><th> 參與陣營 </th><td> <font color=gold>皇家騎士團</font>、<font color=red>天影十字軍</font>、<font color=orange>第三勢力</font> <br> <font color=pink>花靈宮</font>、<font color=lime>盜賊幫</font>、<font color=magenta>無魂軍</font>、<font color=aqua>智械兵團</font> </td></tr> <tr><th> 參與人數 </th><td> 1-6人 </td></tr> <tr><th> 近武能力 </th><td> 開放玩家使用所有等級的近武能力 </td></tr> </table>"
+                        ]
+                    },
+                    {
+                        "code": "containfail4",
+                        "name": "多出的一個...怪物☣? 4",
+                        "maxPlayers": 8,
+                        "minPlayers": 1,
+                        "useAbility": 2,
+                        "open": false,
+                        "camp": [
+                            "royal",
+                            "skydow",
+                            "third"
+                        ],
+                        "description": [
+                            "原作者：腦洞聖。",
+                            "遊戲玩法請在遊戲內按Z查看。",
+                            "單人時可參觀地圖，按O鍵任務完成。",
+                            "　",
+                            "【實驗室機密檔案 - 收容失效事件】",
+                            "代號『怪物』異常實體已突破收容，設施進入緊急狀態！",
+                            "倖存者請注意：你永遠無法確定身邊的同伴是否還是本人...",
+                            "　",
+                            "<table width=425px> <tr><th width=100px> <font color=#32C432>主要目標</font> </th><td> <font color=red>🎭　怪物</font>：獨自存活至最後<br><font color=orange>🔪　殺手</font>：獨自存活至最後<br><font color=green>👥普通人</font>：消滅怪物後從大門撤離 </td></tr> <tr><th> 參與陣營 </th><td> <font color=gold>皇家騎士團</font>、<font color=red>天影十字軍</font>、<font color=orange>第三勢力</font> </td></tr> <tr><th> 參與人數 </th><td> 1-8人 </td></tr> <tr><th> 近武能力 </th><td> 禁止使用 </td></tr> </table>"
+                        ]
+                    }
+                ]
+            },
+            {
+                "code": "mission_series",
+                "name": "幻想篇章",
+                "open": true,
+                "badgeCodes": [],
+                "description": [
+                    "歡迎來到創意匯聚之地，這裡收錄了各種獨特構想的系列任務。",
+                    "每個任務都是獨立世界，等待您探索其中的故事與挑戰。",
+                    "無論是史詩冒險或趣味實驗，都能在此找到屬於您的精彩篇章。",
+                    "準備好展開一場與眾不同的旅程了嗎？"
+                ],
+                "missions": [
+                    {
+                        "code": "info_series_snowrevenge",
+                        "name": "🩸 血色之雪",
+                        "open": true,
+                        "camp": [
+                            "royal",
+                            "skydow",
+                            "third"
+                        ],
+                        "description": [
+                            "天影議會為「雪影」下達了指令：進入白馬城，將城內的帝國生化人體研究所摧毀。",
+                            "這種不人道的研究所自然會被天影議會所厭惡...",
+                            "作為雪影的部下，你們必須跟隨雪影完成任務。"
+                        ]
+                    },
+                    {
+                        "code": "series_snowrevenge_1",
+                        "name": "雪影夢",
+                        "maxPlayers": 4,
+                        "minPlayers": 1,
+                        "useAbility": 2,
+                        "open": true,
+                        "camp": [
+                            "royal",
+                            "skydow",
+                            "third"
+                        ],
+                        "description": [
+                            "你似乎進入了雪影的夢境中...",
+                            "　",
+                            "<table width=425px> <tr><th width=100px> <font color=#32C432>主要目標</font> </th><td> 了解雪影的過去 </td></tr> <tr><th width=100px> <font color=red>失敗條件</font> </th><td> 雪影幻象被打散 </td></tr> <tr><th> 參與陣營 </th><td> <font color=red>天影十字軍</font> </td></tr> <tr><th> 參與人數 </th><td> 1-4人 </td></tr> <tr><th> 近武能力 </th><td> 開放玩家使用所有等級的近武能力 </td></tr> </table>"
+                        ]
+                    },
+                    {
+                        "code": "series_snowrevenge_2",
+                        "name": "血染白馬城",
+                        "maxPlayers": 4,
+                        "minPlayers": 1,
+                        "useAbility": 2,
+                        "open": {
+                            "requireMission": "series_snowrevenge_1"
+                        },
+                        "file": "CG.FlowerFairyPalace/missions/series/snowrevenge/series_snowrevenge_2.events",
+                        "camp": [
+                            "royal",
+                            "skydow",
+                            "third"
+                        ],
+                        "description": [
+                            "白馬城只是一座不起眼的小城，城防規模卻非比尋常...",
+                            "你們提議使用影輕功潛入，卻發現雪影看著守衛們冒起了滔天的殺氣...",
+                            "看來，白馬城將會被守衛們的血所染紅。",
+                            "　",
+                            "<table width=425px> <tr><th width=100px> <font color=#32C432>主要目標</font> </th><td> 擊敗所有敵人 </td></tr> <tr><th width=100px> <font color=red>失敗條件</font> </th><td> 『雪影』陣亡 </td></tr> <tr><th> 參與陣營 </th><td> <font color=red>天影十字軍</font> </td></tr> <tr><th> 參與人數 </th><td> 1-4人 </td></tr> <tr><th> 近武能力 </th><td> 開放玩家使用所有等級的近武能力 </td></tr> </table>"
+                        ]
+                    },
+                    {
+                        "code": "series_snowrevenge_3",
+                        "name": "生化研究所",
+                        "maxPlayers": 4,
+                        "minPlayers": 1,
+                        "useAbility": 2,
+                        "open": {
+                            "requireMission": "series_snowrevenge_2"
+                        },
+                        "file": "CG.FlowerFairyPalace/missions/series/snowrevenge/series_snowrevenge_3.events",
+                        "camp": [
+                            "royal",
+                            "skydow",
+                            "third"
+                        ],
+                        "description": [
+                            "進入了研究所，發現牆上所顯示的的資料一切正如情報所說。",
+                            "清除於此的罪惡，為無辜者而戰！",
+                            "　",
+                            "<table width=425px> <tr><th width=100px> <font color=#32C432>主要目標</font> </th><td> 擊敗所有敵人 </td></tr> <tr><th width=100px> <font color=red>失敗條件</font> </th><td> 『雪影』陣亡 </td></tr> <tr><th> 參與陣營 </th><td> <font color=red>天影十字軍</font> </td></tr> <tr><th> 參與人數 </th><td> 1-4人 </td></tr> <tr><th> 近武能力 </th><td> 開放玩家使用所有等級的近武能力 </td></tr> </table>"
+                        ]
+                    },
+                    {
+                        "code": "series_snowrevenge_4",
+                        "name": "深淵哀嚎",
+                        "maxPlayers": 4,
+                        "minPlayers": 1,
+                        "useAbility": 2,
+                        "open": {
+                            "requireMission": "series_snowrevenge_3"
+                        },
+                        "file": "CG.FlowerFairyPalace/missions/series/snowrevenge/series_snowrevenge_4.events",
+                        "camp": [
+                            "royal",
+                            "skydow",
+                            "third"
+                        ],
+                        "description": [
+                            "來到了研究所底層的你們，聽見了一聲巨大的哀嚎...",
+                            "　",
+                            "<table width=425px> <tr><th width=100px> <font color=#32C432>主要目標</font> </th><td> 擊敗生化怪物 </td></tr> <tr><th width=100px> <font color=red>失敗條件</font> </th><td> 『雪影』陣亡 </td></tr> <tr><th> 參與陣營 </th><td> <font color=red>天影十字軍</font> </td></tr> <tr><th> 參與人數 </th><td> 1-4人 </td></tr> <tr><th> 近武能力 </th><td> 開放玩家使用所有等級的近武能力 </td></tr> </table>"
+                        ]
+                    },
+                    {
+                        "code": "series_snowrevenge_5",
+                        "name": "密道撤離",
+                        "maxPlayers": 4,
+                        "minPlayers": 1,
+                        "useAbility": 2,
+                        "open": {
+                            "requireMission": "series_snowrevenge_4"
+                        },
+                        "file": "CG.FlowerFairyPalace/missions/series/snowrevenge/series_snowrevenge_5.events",
+                        "camp": [
+                            "royal",
+                            "skydow",
+                            "third"
+                        ],
+                        "description": [
+                            "研究所的自毀裝置被啟動了，必需找到能離開研究所的方法。",
+                            "　",
+                            "<table width=425px> <tr><th width=100px> <font color=#32C432>主要目標</font> </th><td> 平安撤離研究所 </td></tr> <tr><th width=100px> <font color=red>失敗條件</font> </th><td> 『雪影』陣亡 </td></tr> <tr><th> 參與陣營 </th><td> <font color=red>天影十字軍</font> </td></tr> <tr><th> 參與人數 </th><td> 1-4人 </td></tr> <tr><th> 近武能力 </th><td> 開放玩家使用所有等級的近武能力 </td></tr> </table>"
+                        ]
+                    },
+                    {
+                        "code": "info_series_flashwing",
+                        "name": "📁 閃翼檔案",
+                        "open": true,
+                        "camp": [
+                            "royal",
+                            "skydow",
+                            "third"
+                        ],
+                        "description": [
+                            "帝國中央情報局得知天影議會指派了長老艾斯‧懷特前往格蘭威城，但更深入的資料難以得知。",
+                            "格蘭威城只是一座普通小城，議會指派了一名長老前往，卻沒有進一步的資料，引起了帝國高層的注意。",
+                            "帝國高層指派了妮娜‧米勒，帝國第五十騎士，前往格蘭威城一探究竟。"
+                        ]
+                    },
+                    {
+                        "code": "series_flashwing_1",
+                        "name": "進入格蘭威城",
+                        "maxPlayers": 4,
+                        "minPlayers": 1,
+                        "useAbility": 2,
+                        "open": true,
+                        "camp": [
+                            "royal",
+                            "skydow",
+                            "third"
+                        ],
+                        "description": [
+                            "格蘭威城，天影領地近邊境的一座小城。",
+                            "環繞城外有一片小山脈，前往正門的道路非常難走。",
+                            "妳決定從側門進入，這裡相較正門好走，而且此處有一座小村落，容易混入潛伏。",
+                            "妳必須在不驚動天影和村民的情況下進入城內。",
+                            "　",
+                            "<table width=425px> <tr><th width=100px> <font color=#32C432>主要目標</font> </th><td> 擊敗所有敵人 </td></tr> <tr><th width=100px> <font color=red>失敗條件</font> </th><td> 天影入城通報<br>誤傷平民 </td></tr> <tr><th> 參與陣營 </th><td> <font color=gold>皇家騎士團</font> </td></tr> <tr><th> 參與人數 </th><td> 1-4人 </td></tr> <tr><th> 近武能力 </th><td> 開放玩家使用所有等級的近武能力 </td></tr> </table>"
+                        ]
+                    },
+                    {
+                        "code": "series_flashwing_2",
+                        "name": "城中秘聞",
+                        "maxPlayers": 1,
+                        "minPlayers": 1,
+                        "useAbility": 2,
+                        "open": {
+                            "requireMission": "series_flashwing_1"
+                        },
+                        "file": "CG.FlowerFairyPalace/missions/series/flashwing/series_flashwing_2.events",
+                        "camp": [
+                            "royal",
+                            "skydow",
+                            "third"
+                        ],
+                        "description": [
+                            "成功潛入城內之後，妳的下一步任務便是嘗試得知議會派遣長老前往此處的原因。",
+                            "雖然城中的守衛可能知道情況，但顯然去問守衛有些不現實。",
+                            "然而，無法詢問守衛，卻也擋不住城中民眾的好奇心...",
+                            "妳必須在城中居民口中得知議會長老來此的原因。",
+                            "　",
+                            "<table width=425px> <tr><th width=100px> <font color=#32C432>主要目標</font> </th><td> 獲取情報 </td></tr> <tr><th width=100px> <font color=red>失敗條件</font> </th><td> 誤傷平民 </td></tr> <tr><th> 參與陣營 </th><td> <font color=gold>皇家騎士團</font> </td></tr> <tr><th> 參與人數 </th><td> 1人 </td></tr> <tr><th> 近武能力 </th><td> 開放玩家使用所有等級的近武能力 </td></tr> </table>"
+                        ]
+                    },
+                    {
+                        "code": "series_flashwing_3",
+                        "name": "森林蟲蹤",
+                        "maxPlayers": 4,
+                        "minPlayers": 1,
+                        "useAbility": 2,
+                        "open": {
+                            "requireMission": "series_flashwing_2"
+                        },
+                        "file": "CG.FlowerFairyPalace/missions/series/flashwing/series_flashwing_3.events",
+                        "camp": [
+                            "royal",
+                            "skydow",
+                            "third"
+                        ],
+                        "description": [
+                            "從居民口中得知城外的森林似乎出現了『屍血蟲』，可能是天影議會指派長老來此地的原因。",
+                            "妳確定前往森林查看。",
+                            "　",
+                            "<table width=425px> <tr><th width=100px> <font color=#32C432>主要目標</font> </th><td> 尋找『屍血蟲』 </td></tr> <tr><th width=100px> <font color=red>失敗條件</font> </th><td> 不敵森林猛獸 </td></tr> <tr><th> 參與陣營 </th><td> <font color=gold>皇家騎士團</font> </td></tr> <tr><th> 參與人數 </th><td> 1-4人 </td></tr> <tr><th> 近武能力 </th><td> 開放玩家使用所有等級的近武能力 </td></tr> </table>"
+                        ]
+                    },
+                    {
+                        "code": "series_flashwing_4",
+                        "name": "逃生驚魂",
+                        "maxPlayers": 4,
+                        "minPlayers": 1,
+                        "useAbility": 2,
+                        "open": {
+                            "requireMission": "series_flashwing_3"
+                        },
+                        "file": "CG.FlowerFairyPalace/missions/series/flashwing/series_flashwing_4.events",
+                        "camp": [
+                            "royal",
+                            "skydow",
+                            "third"
+                        ],
+                        "description": [
+                            "卑鄙的天影小人釋放神經麻痹的毒氣將妳生擒。",
+                            "妳醒來之後發現自己正處於一座囚房之中，而禍首就在妳眼前...",
+                            "　",
+                            "<table width=425px> <tr><th width=100px> <font color=#32C432>主要目標</font> </th><td> 逃出生天 </td></tr> <tr><th width=100px> <font color=red>失敗條件</font> </th><td> 再次失手被囚 </td></tr> <tr><th> 參與陣營 </th><td> <font color=gold>皇家騎士團</font> </td></tr> <tr><th> 參與人數 </th><td> 1-4人 </td></tr> <tr><th> 近武能力 </th><td> 開放玩家使用所有等級的近武能力 </td></tr> </table>"
+                        ]
+                    },
+                    {
+                        "code": "series_flashwing_5",
+                        "name": "最終信號",
+                        "maxPlayers": 4,
+                        "minPlayers": 1,
+                        "useAbility": 2,
+                        "open": {
+                            "requireMission": "series_flashwing_4"
+                        },
+                        "file": "CG.FlowerFairyPalace/missions/series/flashwing/series_flashwing_5.events",
+                        "camp": [
+                            "royal",
+                            "skydow",
+                            "third"
+                        ],
+                        "description": [
+                            "從長老艾斯口中得知這次行動是為了吸引帝國目光而特設的一場戲。",
+                            "面對越來越多的追兵，妳真的能活著向帝國報信嗎？",
+                            "　",
+                            "<table width=425px> <tr><th width=100px> <font color=#32C432>主要目標</font> </th><td> 逃離包圍並向帝國報信 </td></tr> <tr><th width=100px> <font color=red>失敗條件</font> </th><td> 陣亡 </td></tr> <tr><th> 參與陣營 </th><td> <font color=gold>皇家騎士團</font> </td></tr> <tr><th> 參與人數 </th><td> 1-4人 </td></tr> <tr><th> 近武能力 </th><td> 開放玩家使用所有等級的近武能力 </td></tr> </table>"
+                        ]
+                    },
+                    {
+                        "code": "info_series_angelhealer",
+                        "name": "💖 小醫仙的願望",
+                        "open": true,
+                        "camp": [
+                            "royal",
+                            "skydow",
+                            "third"
+                        ],
+                        "description": [
+                            "小醫仙是最近新進傭兵團的醫生。",
+                            "她妙手回春的醫術和友善的性格為她帶來了大家的喜愛。",
+                            "雖然沒人知道她的名字，但大家總會親切地稱呼她為小醫仙。",
+                            "　",
+                            "然而，溫柔可人的小醫仙在最近一次外出為平民治療時，她所在的村子被盜賊團襲擊，一旁護衛的傭兵被全數殲滅。",
+                            "村民趕到傭兵團求助時已經是兩天後了。",
+                            "根據線報，擄走小醫仙的盜賊團歸屬於托馬斯營地。",
+                            "為免打草驚蛇，傭兵團已能先將營地外圍包圍，只待一兩好手潛入營救後再殲滅營地的盜賊。",
+                            "你的任務便是從中營救小醫仙。"
+                        ]
+                    },
+                    {
+                        "code": "series_angelhealer_1",
+                        "name": "托馬斯營地",
+                        "maxPlayers": 4,
+                        "minPlayers": 1,
+                        "useAbility": 2,
+                        "open": true,
+                        "camp": [
+                            "royal",
+                            "skydow",
+                            "third"
+                        ],
+                        "description": [
+                            "托馬斯營地是一處較大的盜賊營地。",
+                            "你必須悄聲無息地營救小醫仙，並護送到傭兵團處。",
+                            "　",
+                            "<table width=425px> <tr><th width=100px> <font color=#32C432>主要目標</font> </th><td> 營救小醫仙 </td></tr> <tr><th width=100px> <font color=red>失敗條件</font> </th><td> 小醫仙死亡 </td></tr> <tr><th> 參與陣營 </th><td> <font color=orange>第三勢力</font> </td></tr> <tr><th> 參與人數 </th><td> 1-4人 </td></tr> <tr><th> 近武能力 </th><td> 開放玩家使用所有等級的近武能力 </td></tr> </table>"
+                        ]
+                    },
+                    {
+                        "code": "series_angelhealer_2",
+                        "name": "村莊遊擊戰",
+                        "maxPlayers": 4,
+                        "minPlayers": 1,
+                        "useAbility": 2,
+                        "open": {
+                            "requireMission": "series_angelhealer_1"
+                        },
+                        "file": "CG.FlowerFairyPalace/missions/series/angelhealer/series_angelhealer_2.events",
+                        "camp": [
+                            "royal",
+                            "skydow",
+                            "third"
+                        ],
+                        "description": [
+                            "天色已晚，你只得先帶小醫仙回到村莊暫時休息。",
+                            "不料，到達時才驚覺村莊被帝國軍占領了。",
+                            "幸好，村莊並未見有屍橫遍野的境況，村民們和守村傭兵應該是安全撤離了。",
+                            "但是，正當你想離開之際...",
+                            "　",
+                            "<table width=425px> <tr><th width=100px> <font color=#32C432>主要目標</font> </th><td> 擊敗所有敵人 </td></tr> <tr><th width=100px> <font color=red>失敗條件</font> </th><td> 陣亡 </td></tr> <tr><th> 參與陣營 </th><td> <font color=orange>第三勢力</font> </td></tr> <tr><th> 參與人數 </th><td> 1-4人 </td></tr> <tr><th> 近武能力 </th><td> 開放玩家使用所有等級的近武能力 </td></tr> </table>"
+                        ]
+                    },
+                    {
+                        "code": "series_angelhealer_3",
+                        "name": "帝國包圍網",
+                        "maxPlayers": 4,
+                        "minPlayers": 1,
+                        "useAbility": 2,
+                        "open": {
+                            "requireMission": "series_angelhealer_2"
+                        },
+                        "file": "CG.FlowerFairyPalace/missions/series/angelhealer/series_angelhealer_3.events",
+                        "camp": [
+                            "royal",
+                            "skydow",
+                            "third"
+                        ],
+                        "description": [
+                            "雖然在村莊中有驚無險，然而，帝國卻早已悄無聲息地包圍了整個村莊。",
+                            "你經歷了這麼多戰鬥早已疲累不堪。",
+                            "在村子裡休息過後，卻才驚現一切已經太遲了...",
+                            "　",
+                            "<table width=425px> <tr><th width=100px> <font color=#32C432>主要目標</font> </th><td> 死戰至最後一刻 </td></tr> <tr><th> 參與陣營 </th><td> <font color=orange>第三勢力</font> </td></tr> <tr><th> 參與人數 </th><td> 1-4人 </td></tr> <tr><th> 近武能力 </th><td> 開放玩家使用所有等級的近武能力 </td></tr> </table>"
+                        ]
+                    },
+                    {
+                        "code": "series_angelhealer_4",
+                        "name": "最後的委託",
+                        "maxPlayers": 4,
+                        "minPlayers": 1,
+                        "useAbility": 2,
+                        "open": {
+                            "requireMission": "series_angelhealer_3"
+                        },
+                        "file": "CG.FlowerFairyPalace/missions/series/angelhealer/series_angelhealer_4.events",
+                        "camp": [
+                            "royal",
+                            "skydow",
+                            "third"
+                        ],
+                        "description": [
+                            "面對越來越多的追兵，你快不支倒下了...",
+                            "這時候，小醫仙向你委託了最後一個任務：活下去。",
+                            "說罷，她便用了身上最後的靈力為你們治療。",
+                            "不能辜負小醫仙的期紛，你必需活著離開包圍網。",
+                            "　",
+                            "<table width=425px> <tr><th width=100px> <font color=#32C432>主要目標</font> </th><td> 逃離帝國包圍網 </td></tr> <tr><th> 參與陣營 </th><td> <font color=orange>第三勢力</font> </td></tr> <tr><th> 參與人數 </th><td> 1-4人 </td></tr> <tr><th> 近武能力 </th><td> 開放玩家使用所有等級的近武能力 </td></tr> </table>"
+                        ]
+                    },
+                    {
+                        "code": "series_angelhealer_5",
+                        "name": "隱居的願望",
+                        "maxPlayers": 1,
+                        "minPlayers": 1,
+                        "useAbility": 2,
+                        "open": {
+                            "requireMission": "series_angelhealer_4"
+                        },
+                        "file": "CG.FlowerFairyPalace/missions/series/angelhealer/series_angelhealer_5.events",
+                        "camp": [
+                            "royal",
+                            "skydow",
+                            "third"
+                        ],
+                        "description": [
+                            "你千辛萬苦脫離了包圍網，只見突然一陣光芒出現...",
+                            "一抺倩影渾身帶血的倒在了你眼前。",
+                            "　",
+                            "<table width=425px> <tr><th width=100px> <font color=#32C432>主要目標</font> </th><td> 帶小醫仙離開 </td></tr> <tr><th> 參與陣營 </th><td> <font color=orange>第三勢力</font> </td></tr> <tr><th> 參與人數 </th><td> 1人 </td></tr> <tr><th> 近武能力 </th><td> 開放玩家使用所有等級的近武能力 </td></tr> </table>"
+                        ]
+                    },
+                    {
+                        "code": "info_series_vigil",
+                        "name": "🌈 守望者",
+                        "open": true,
+                        "camp": [
+                            "royal",
+                            "skydow",
+                            "third"
+                        ],
+                        "description": [
+                            "【守望者】是一個獨立大勢力。",
+                            "他們隱流於人跡罕至的之地，彷彿他們的存在於世人而言只是一段傳說。",
+                            "其他大勢力會交託己方勢力不便於出手的任務給予守望者。",
+                            "守望者自創辦以來一直『掃除黑暗』為宗旨執行任務，且在任務完成時僅留下委託方勢力之名。",
+                            "因此，守望者得以與各方勢力相互友善而繫。",
+                            "　",
+                            "在內部，守望者依實力分為五等：『極』、『字』、『寧』、『夫』、『卒』，其中又以『極』為佼佼者。",
+                            "在此之上，守望者又五名最強大的『極』擔任『持戒者』。",
+                            "『持戒者』共分五種顏色：黃色、紫色、粉色、綠色、藍色，各自率領一部門，各司其職。",
+                            "黃戒主管財務；紫戒主管情報與通訊；粉戒主管醫療與後勤；綠戒負責於各個勢力中接取任務；藍戒負責分發所接取的任務。",
+                            "　",
+                            "儘管多數任務僅需派遣『夫』『卒』即可完成。",
+                            "然而世事難料。近年來，各大勢力戰爭不斷，自各大勢力所接收的任務愈加繁重。",
+                            "鑑於人力的折損，近來多得由『極』甚至需要數名出動才能完成任務。",
+                            "　",
+                            "『持戒者』紫推測，近日越發難而順行的委託似乎與『龍殤之地』有所關連。",
+                            "各大勢力在此碰壁又折損不少高端戰力後，不得已只能向【守望者】求助。",
+                            "前往龍殤之地的守望者，包括了數名『極』，於進入『龍殤之地』後都失聯了，這讓五位持戒者大受驚訝。"
+                        ]
+                    },
+                    {
+                        "code": "series_vigil_1",
+                        "name": "龍殤之地",
+                        "maxPlayers": 8,
+                        "minPlayers": 1,
+                        "useAbility": 2,
+                        "open": true,
+                        "camp": [
+                            "royal",
+                            "skydow",
+                            "third"
+                        ],
+                        "description": [
+                            "『龍殤之地』，因從日光地轉為黑暗地時，附近村民聽見有似龍哀號之聲而得名。",
+                            "具體是否有龍曾經殞落與否不為人知，但有一點卻是為世人所知：踏入此地者，有去無回。",
+                            "　",
+                            "守望者的情報顯示，此地山勢險要，於最外圈駐守著一支不明軍隊。",
+                            "他們似乎對於外人的到來沒有反應，只會因被動反擊而攻擊。",
+                            "然而，近日這支軍隊卻像發瘋一樣，攻擊並殺死任何敢入警戒區的生物，甚至於連蚊子與蒼蠅等小昆蟲也不放過。",
+                            "折損了這麼多人手，『持戒者』也不得不出動執行這棘手的任務了。",
+                            "目前，僅有『持戒者』粉最接近龍殤之地。",
+                            "『持戒者』粉，即奧莉薇雅·阿爾弗雷德(Olivia Alfred)，在守望者中最為精通治療與補給。",
+                            "實力不俗，也是為數不多能將體內靈氣轉化成不同陣營的人，是一個棘手的戰鬥對象。",
+                            "……",
+                            "妳到達現場時，發現這支不明軍隊正在向外擴散警戒線。為了周邊平民的安全，妳也沒法拿取太多的補給，只得先行趕往龍殤之地清除這支不明軍隊了。",
+                            "　",
+                            "<table width=425px> <tr><th width=100px> <font color=#32C432>主要目標</font> </th><td> 殲滅不明軍隊 </td></tr> <tr><th> 參與陣營 </th><td> <font color=gold>皇家騎士團</font>、<font color=red>天影十字軍</font>、<font color=orange>第三勢力</font> </td></tr> <tr><th> 參與人數 </th><td> 1-8人 </td></tr> <tr><th> 近武能力 </th><td> 開放玩家使用所有等級的近武能力 </td></tr> </table>"
+                        ]
+                    },
+                    {
+                        "code": "series_vigil_2",
+                        "name": "黃昏女神教",
+                        "maxPlayers": 8,
+                        "minPlayers": 1,
+                        "useAbility": 2,
+                        "open": {
+                            "requireMission": "series_vigil_1"
+                        },
+                        "file": "CG.FlowerFairyPalace/missions/series/vigil/series_vigil_2.events",
+                        "camp": [
+                            "royal",
+                            "skydow",
+                            "third"
+                        ],
+                        "description": [
+                            "眼前的與你鏡像一般的不明女士把你邀請進了一所神秘基地。",
+                            "神秘基地看起來像是一所實驗室，以及宗教場所的結合產物。",
+                            "妳對她所節選的家族秘言不解，因為這絕不可能流傳於世。",
+                            "妳心中只得期紛，兄長前來救場，以及她口中『那位大人』的解釋。",
+                            "隨著深入，妳心中的不安感越來越強烈。",
+                            "　",
+                            "<table width=425px> <tr><th width=100px> <font color=#32C432>主要目標</font> </th><td> 與『那位大人』對話 </td></tr> <tr><th> 參與陣營 </th><td> <font color=gold>皇家騎士團</font>、<font color=red>天影十字軍</font>、<font color=orange>第三勢力</font> </td></tr> <tr><th> 參與人數 </th><td> 1-8人 </td></tr> <tr><th> 近武能力 </th><td> 開放玩家使用所有等級的近武能力 </td></tr> </table>"
+                        ]
+                    },
+                    {
+                        "code": "series_vigil_3",
+                        "name": "禁忌實驗",
+                        "maxPlayers": 8,
+                        "minPlayers": 1,
+                        "useAbility": 2,
+                        "open": {
+                            "requireMission": "series_vigil_2"
+                        },
+                        "file": "CG.FlowerFairyPalace/missions/series/vigil/series_vigil_3.events",
+                        "camp": [
+                            "royal",
+                            "skydow",
+                            "third"
+                        ],
+                        "description": [
+                            "實驗室的真相終於揭曉——黃昏女神教正在進行一項足以顛覆世界的禁忌實驗。",
+                            "他們企圖利用龍殤之地的神秘能量，創造出能夠掌控時間與空間的終極兵器。",
+                            "而這一切的關鍵，竟然與你血脈相連...",
+                            "實驗已進入最後階段，必須在儀式完成前阻止這場災難。",
+                            "每一秒的遲疑，都可能讓世界陷入萬劫不復的深淵。",
+                            "　",
+                            "<table width=425px> <tr><th width=100px> <font color=#32C432>主要目標</font> </th><td> 阻止實驗進行 </td></tr> <tr><th> <font color=red>失敗條件</font> </th><td> 實驗順利進行 </td></tr> <tr><th> 參與陣營 </th><td> <font color=gold>皇家騎士團</font>、<font color=red>天影十字軍</font>、<font color=orange>第三勢力</font> </td></tr> <tr><th> 參與人數 </th><td> 1-8人 </td></tr> <tr><th> 近武能力 </th><td> 開放玩家使用所有等級的近武能力 </td></tr> </table>"
+                        ]
+                    },
+                    {
+                        "code": "series_vigil_4",
+                        "name": "命運的抉擇",
+                        "maxPlayers": 1,
+                        "minPlayers": 1,
+                        "useAbility": 2,
+                        "open": {
+                            "requireMission": "series_vigil_3"
+                        },
+                        "file": "CG.FlowerFairyPalace/missions/series/vigil/series_vigil_4.events",
+                        "camp": [
+                            "royal",
+                            "skydow",
+                            "third"
+                        ],
+                        "description": [
+                            "最殘酷的真相終於浮現——你的兄長奧斯卡，竟是黃昏女神教的創始者之一。",
+                            "他站在儀式核心，向你發出最後的邀請：",
+                            "「加入我們，我們將重塑這個腐朽的世界...」",
+                            "「或者，為了所謂的正義，親手葬送你最後的親人。」",
+                            "身後是萬千生靈的期盼，面前是血脈相連的至親。",
+                            "這道選擇題，沒有正確答案，只有你內心深處最真實的答案...",
+                            "　",
+                            "<table width=425px> <tr><th width=100px> <font color=#32C432>主要目標</font> </th><td> 作出抉擇 </td></tr> <tr><th> <font color=red>失敗條件</font> </th><td> 猶豫不決 </td></tr> <tr><th> 參與陣營 </th><td> <font color=gold>皇家騎士團</font>、<font color=red>天影十字軍</font>、<font color=orange>第三勢力</font> </td></tr> <tr><th> 參與人數 </th><td> 1人 </td></tr> <tr><th> 近武能力 </th><td> 開放玩家使用所有等級的近武能力 </td></tr> </table>"
+                        ]
+                    },
+                    {
+                        "code": "series_vigil_5",
+                        "name": "終焉咏嘆詩",
+                        "maxPlayers": 8,
+                        "minPlayers": 1,
+                        "useAbility": 2,
+                        "open": {
+                            "requireMission": "series_vigil_4"
+                        },
+                        "file": "CG.FlowerFairyPalace/missions/series/vigil/series_vigil_5.events",
+                        "camp": [
+                            "royal",
+                            "skydow",
+                            "third"
+                        ],
+                        "description": [
+                            "無論你作出了何種選擇，黃昏的終幕都已拉開。",
+                            "奧斯卡終究還是啟動了最終儀式，整個龍殤之地開始崩解，現實與虛幻的界線逐漸模糊。",
+                            "天空染上不祥的緋紅，大地哀嚎著裂開深淵。",
+                            "在這世界終結的倒數時刻，你必須守護最後的希望——",
+                            "無論是為了拯救世界，還是為了挽回兄長的神智與靈魂。",
+                            "這首終焉的咏嘆詩，將由你來譜寫最後的樂章...",
+                            "　",
+                            "<table width=425px> <tr><th width=100px> <font color=#32C432>主要目標</font> </th><td> 在黃昏末日中生存 </td></tr> <tr><th> <font color=red>失敗條件</font> </th><td> 奧斯卡陣亡 </td></tr> <tr><th> 參與陣營 </th><td> <font color=gold>皇家騎士團</font>、<font color=red>天影十字軍</font>、<font color=orange>第三勢力</font> </td></tr> <tr><th> 參與人數 </th><td> 1-8人 </td></tr> <tr><th> 近武能力 </th><td> 開放玩家使用所有等級的近武能力 </td></tr> </table>"
                         ]
                     }
                 ]
@@ -1008,11 +1872,7 @@ export const seasons = [
                     {
                         "code": "info_resuce_lovers_princess_in_dungeon",
                         "name": "👑 公主織夢",
-                        "maxPlayers": 1,
-                        "minPlayers": 1,
-                        "useAbility": 2,
                         "open": true,
-                        "file": null,
                         "camp": [
                             "royal",
                             "skydow",
@@ -1162,11 +2022,7 @@ export const seasons = [
                     {
                         "code": "info_resuce_lovers_saintess_of_ceremony",
                         "name": "🌟 聖女米娜",
-                        "maxPlayers": 1,
-                        "minPlayers": 1,
-                        "useAbility": 2,
                         "open": true,
-                        "file": null,
                         "camp": [
                             "royal",
                             "skydow",
@@ -1316,11 +2172,7 @@ export const seasons = [
                     {
                         "code": "info_resuce_lovers_musician_at_auditorium",
                         "name": "🎵 音樂家和紗",
-                        "maxPlayers": 1,
-                        "minPlayers": 1,
-                        "useAbility": 2,
                         "open": true,
-                        "file": null,
                         "camp": [
                             "royal",
                             "skydow",
@@ -1472,11 +2324,7 @@ export const seasons = [
                     {
                         "code": "info_resuce_lovers_mechanic_inside_factory",
                         "name": "🛠️ 機械師索菲亞",
-                        "maxPlayers": 1,
-                        "minPlayers": 1,
-                        "useAbility": 2,
                         "open": true,
-                        "file": null,
                         "camp": [
                             "royal",
                             "skydow",
@@ -1627,11 +2475,7 @@ export const seasons = [
                     {
                         "code": "info_resuce_lovers_masterchef_of_heaven",
                         "name": "🍽️ 主廚繪里奈",
-                        "maxPlayers": 1,
-                        "minPlayers": 1,
-                        "useAbility": 2,
                         "open": true,
-                        "file": null,
                         "camp": [
                             "royal",
                             "skydow",
@@ -1784,11 +2628,7 @@ export const seasons = [
                     {
                         "code": "info_resuce_lovers_truth_behind_scenes",
                         "name": "🔎 幕後真相",
-                        "maxPlayers": 1,
-                        "minPlayers": 1,
-                        "useAbility": 2,
                         "open": true,
-                        "file": null,
                         "camp": [
                             "royal",
                             "skydow",
@@ -1975,13 +2815,9 @@ export const seasons = [
                     {
                         "code": "info_mission_placeholder_fairy1",
                         "name": "",
-                        "maxPlayers": 1,
-                        "minPlayers": 1,
-                        "useAbility": 2,
                         "open": {
                             "requireMission": "info_mission_placeholder"
                         },
-                        "file": null,
                         "camp": [
                             "royal",
                             "skydow",
@@ -2466,13 +3302,9 @@ export const seasons = [
                     {
                         "code": "info_mission_placeholder_fairy2",
                         "name": "",
-                        "maxPlayers": 1,
-                        "minPlayers": 1,
-                        "useAbility": 2,
                         "open": {
                             "requireMission": "info_mission_placeholder"
                         },
-                        "file": null,
                         "camp": [
                             "royal",
                             "skydow",
@@ -2784,9 +3616,6 @@ export const seasons = [
                     {
                         "code": "info_afterstory_fairy",
                         "name": "後記",
-                        "maxPlayers": 1,
-                        "minPlayers": 1,
-                        "useAbility": 2,
                         "open": {
                             "requireBadge": [
                                 "fairy_tutorial_twins",
@@ -2835,7 +3664,7 @@ export const seasons = [
         ]
     },
     {
-        "name": "盜賊幫‧忠義會的信條",
+        "name": "聖石啟示錄",
         "chapters": [
             {
                 "code": "info_thief_season1",
@@ -2862,13 +3691,9 @@ export const seasons = [
                     {
                         "code": "info_mission_placeholder_thief1",
                         "name": "",
-                        "maxPlayers": 1,
-                        "minPlayers": 1,
-                        "useAbility": 2,
                         "open": {
                             "requireMission": "info_mission_placeholder"
                         },
-                        "file": null,
                         "camp": [
                             "royal",
                             "skydow",
@@ -3267,13 +4092,9 @@ export const seasons = [
                     {
                         "code": "info_mission_placeholder_thief2",
                         "name": "",
-                        "maxPlayers": 1,
-                        "minPlayers": 1,
-                        "useAbility": 2,
                         "open": {
                             "requireMission": "info_mission_placeholder"
                         },
-                        "file": null,
                         "camp": [
                             "royal",
                             "skydow",
@@ -3650,9 +4471,6 @@ export const seasons = [
                     {
                         "code": "info_afterstory_thief",
                         "name": "後記",
-                        "maxPlayers": 1,
-                        "minPlayers": 1,
-                        "useAbility": 2,
                         "open": {
                             "requireBadge": [
                                 "thief_tutorial_despair",
@@ -3676,7 +4494,7 @@ export const seasons = [
         ]
     },
     {
-        "name": "無魂軍‧記憶尋回之旅",
+        "name": "憶海迷途",
         "chapters": [
             {
                 "code": "info_zombie_season1",
@@ -3703,13 +4521,9 @@ export const seasons = [
                     {
                         "code": "info_mission_placeholder_zombie1",
                         "name": "",
-                        "maxPlayers": 1,
-                        "minPlayers": 1,
-                        "useAbility": 2,
                         "open": {
                             "requireMission": "info_mission_placeholder"
                         },
-                        "file": null,
                         "camp": [
                             "royal",
                             "skydow",
@@ -4195,13 +5009,9 @@ export const seasons = [
                     {
                         "code": "info_mission_placeholder_zombie2",
                         "name": "",
-                        "maxPlayers": 1,
-                        "minPlayers": 1,
-                        "useAbility": 2,
                         "open": {
                             "requireMission": "info_mission_placeholder"
                         },
-                        "file": null,
                         "camp": [
                             "royal",
                             "skydow",
@@ -4508,9 +5318,6 @@ export const seasons = [
                     {
                         "code": "info_afterstory_zombie",
                         "name": "後記",
-                        "maxPlayers": 1,
-                        "minPlayers": 1,
-                        "useAbility": 2,
                         "open": {
                             "requireBadge": [
                                 "zombie_tutorial_mutation",
