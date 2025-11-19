@@ -816,6 +816,7 @@ export const seasons = [
                         "minPlayers": 1,
                         "useAbility": 2,
                         "open": true,
+                        "file": "CG.FlowerFairyPalace/missions/fanissions/atlantisaction.events",
                         "camp": [
                             "royal",
                             "skydow",
@@ -836,6 +837,7 @@ export const seasons = [
                         "minPlayers": 1,
                         "useAbility": 2,
                         "open": true,
+                        "file": "CG.FlowerFairyPalace/missions/fanissions/aurorapolaris.events",
                         "camp": [
                             "royal",
                             "skydow",
@@ -850,17 +852,17 @@ export const seasons = [
                             "恰巧來到此處拜訪的露娜因而染上了。",
                             "發狂的露娜不知道為什麼，突然闖入了【極光虛境】，把歐若拉趕了出來。",
                             "失去主控權的歐若拉失去了神職，神力無以為繼。",
-                            "在【眾神之父】奧丁的引導下，歐若拉來到了凡間召集了數名勇士，協助歐若拉取回【極光虛境】。",
+                            "在【眾神之父】奧丁的引導下，歐若拉來到了凡間召集了數名勇士，協助歐若拉取回極光虛境。",
                             "　",
-                            "要取回【極光虛境】，便得深入到虛境的最深處，「曙光」，打敗發狂的露娜。",
+                            "要取回極光虛境，便得深入到虛境的最深處，「曙光」，打敗發狂的露娜。",
                             "洛基雖然已經成功配制解藥，但發狂的露娜是不可能願意服下的，只得先將她打暈。",
                             "洛基還發現，他領下的一片凍土，大量埋藏於此的大體都神奇消失了。",
-                            "不用多說，這些大體已然復活，成為如今【極光虛境】的守衛了。",
+                            "不用多說，這些大體已然復活，成為如今極光虛境的守衛了。",
                             "在得到虛境的【晨曦祝福】後，這些守衛能夠短暫地擁有生前的實力。",
                             "　",
-                            "花費了萬分功夫，歐若拉總算成功召集到勇士了。現在，便是帶領勇士前往【極光虛境】的時候了。",
+                            "花費了萬分功夫，歐若拉總算成功召集到勇士了。現在，便是帶領勇士前往極光虛境的時候了。",
                             "　",
-                            "<table width=425px> <tr><th width=100px> <font color=#32C432>主要目標</font> </th><td> 擊敗露娜 </td></tr> <tr><th> 參與陣營 </th><td> <font color=gold>皇家騎士團</font>、<font color=red>天影十字軍</font>、<font color=orange>第三勢力</font> <br> <font color=pink>花靈宮</font>、<font color=lime>盜賊幫</font>、<font color=magenta>無魂軍</font>、<font color=aqua>智械兵團</font> </td></tr> <tr><th> 參與人數 </th><td> 1-8人 </td></tr> <tr><th> 近武能力 </th><td> 限用一般近武能力 </td></tr> </table>"
+                            "<table width=425px> <tr><th width=100px> <font color=#32C432>主要目標</font> </th><td> 奪回極光虛境 </td></tr> <tr><th> 參與陣營 </th><td> <font color=gold>皇家騎士團</font>、<font color=red>天影十字軍</font>、<font color=orange>第三勢力</font> <br> <font color=pink>花靈宮</font>、<font color=lime>盜賊幫</font>、<font color=magenta>無魂軍</font>、<font color=aqua>智械兵團</font> </td></tr> <tr><th> 參與人數 </th><td> 1-8人 </td></tr> <tr><th> 近武能力 </th><td> 限用一般近武能力 </td></tr> </table>"
                         ]
                     },
                     {
@@ -870,6 +872,7 @@ export const seasons = [
                         "minPlayers": 1,
                         "useAbility": 2,
                         "open": true,
+                        "file": "CG.FlowerFairyPalace/missions/fanissions/besiegingcity.events",
                         "camp": [
                             "royal",
                             "skydow",
@@ -891,6 +894,7 @@ export const seasons = [
                         "minPlayers": 1,
                         "useAbility": 2,
                         "open": true,
+                        "file": "CG.FlowerFairyPalace/missions/fanissions/celebritiesduel.events",
                         "camp": [
                             "royal",
                             "skydow",
@@ -900,7 +904,7 @@ export const seasons = [
                             "直面傳奇，挑戰自我極限。",
                             "沒有取巧的餘地，唯有純粹的實力碰撞。",
                             "　",
-                            "<table width=425px> <tr><th width=100px> <font color=#32C432>主要目標</font> </th><td> 擊敗所有人物 </td></tr> <tr><th> 參與陣營 </th><td> <font color=gold>皇家騎士團</font>、<font color=red>天影十字軍</font>、<font color=orange>第三勢力</font> <br> <font color=pink>花靈宮</font>、<font color=lime>盜賊幫</font>、<font color=magenta>無魂軍</font>、<font color=aqua>智械兵團</font> </td></tr> <tr><th> 參與人數 </th><td> 1-8人 </td></tr> <tr><th> 近武能力 </th><td> 開放玩家使用所有等級的近武能力 </td></tr> </table>"
+                            "<table width=425px> <tr><th width=100px> <font color=#32C432>主要目標</font> </th><td> 完成人物挑戰 </td></tr> <tr><th> 參與陣營 </th><td> <font color=gold>皇家騎士團</font>、<font color=red>天影十字軍</font>、<font color=orange>第三勢力</font> <br> <font color=pink>花靈宮</font>、<font color=lime>盜賊幫</font>、<font color=magenta>無魂軍</font>、<font color=aqua>智械兵團</font> </td></tr> <tr><th> 參與人數 </th><td> 1-8人 </td></tr> <tr><th> 近武能力 </th><td> 開放玩家使用所有等級的近武能力 </td></tr> </table>"
                         ]
                     },
                     {
@@ -933,6 +937,7 @@ export const seasons = [
                         "minPlayers": 1,
                         "useAbility": 2,
                         "open": true,
+                        "file": "CG.FlowerFairyPalace/missions/fanissions/insidemyself.events",
                         "camp": [
                             "royal",
                             "skydow",
@@ -956,6 +961,7 @@ export const seasons = [
                         "minPlayers": 1,
                         "useAbility": 2,
                         "open": true,
+                        "file": "CG.FlowerFairyPalace/missions/fanissions/loneranger.events",
                         "camp": [
                             "royal",
                             "skydow",
@@ -977,6 +983,7 @@ export const seasons = [
                         "minPlayers": 1,
                         "useAbility": 2,
                         "open": true,
+                        "file": "CG.FlowerFairyPalace/missions/fanissions/prisonescape.events",
                         "camp": [
                             "royal",
                             "skydow",
@@ -997,6 +1004,7 @@ export const seasons = [
                         "minPlayers": 1,
                         "useAbility": 2,
                         "open": true,
+                        "file": "CG.FlowerFairyPalace/missions/fanissions/radiantglory.events",
                         "camp": [
                             "royal",
                             "skydow",
@@ -1018,6 +1026,7 @@ export const seasons = [
                         "minPlayers": 1,
                         "useAbility": 2,
                         "open": true,
+                        "file": "CG.FlowerFairyPalace/missions/fanissions/rescueprincess.events",
                         "camp": [
                             "royal",
                             "skydow",
@@ -1028,7 +1037,7 @@ export const seasons = [
                             "皇室發出最高懸賞令，目標只有一個——不惜一切代價救回公主！",
                             "幽幻谷地形險惡，敵軍佈防嚴密，時間就是生命。",
                             "　",
-                            "<table width=425px> <tr><th width=100px> <font color=#32C432>主要目標</font> </th><td> 拯救熒縈公主 </td></tr> <tr><th> <font color=red>失敗條件</font> </th><td> 公主受重傷而死 </td></tr> <tr><th> 參與陣營 </th><td> <font color=gold>皇家騎士團</font>、<font color=red>天影十字軍</font>、<font color=orange>第三勢力</font> <br> <font color=pink>花靈宮</font>、<font color=lime>盜賊幫</font>、<font color=magenta>無魂軍</font>、<font color=aqua>智械兵團</font> </td></tr> <tr><th> 參與人數 </th><td> 1-8人 </td></tr> <tr><th> 近武能力 </th><td> 開放玩家使用所有等級的近武能力 </td></tr> </table>"
+                            "<table width=425px> <tr><th width=100px> <font color=#32C432>主要目標</font> </th><td> 拯救熒縈公主 </td></tr> <tr><th> <font color=red>失敗條件</font> </th><td> 熒縈公主陣亡 </td></tr> <tr><th> 參與陣營 </th><td> <font color=gold>皇家騎士團</font>、<font color=red>天影十字軍</font>、<font color=orange>第三勢力</font> <br> <font color=pink>花靈宮</font>、<font color=lime>盜賊幫</font>、<font color=magenta>無魂軍</font>、<font color=aqua>智械兵團</font> </td></tr> <tr><th> 參與人數 </th><td> 1-8人 </td></tr> <tr><th> 近武能力 </th><td> 開放玩家使用所有等級的近武能力 </td></tr> </table>"
                         ]
                     },
                     {
@@ -1080,6 +1089,7 @@ export const seasons = [
                         "minPlayers": 3,
                         "useAbility": 2,
                         "open": true,
+                        "file": "CG.FlowerFairyPalace/missions/fanissions/crystalsaber.events",
                         "camp": [
                             "royal",
                             "skydow",
@@ -1089,7 +1099,7 @@ export const seasons = [
                             "極北之境傳來遠古神器「冰劍」與「水晶弓」的召喚。",
                             "勇士們需攜手穿越永凍之地，解開冰封的古老秘密。",
                             "　",
-                            "<table width=425px> <tr><th width=100px> <font color=#32C432>主要目標</font> </th><td> 合作通過試煉 </td></tr> <tr><th> <font color=red>失敗條件</font> </th><td> 任一試煉者陣亡 </td></tr> <tr><th> 參與陣營 </th><td> <font color=gold>皇家騎士團</font>、<font color=red>天影十字軍</font>、<font color=orange>第三勢力</font> </td></tr> <tr><th> 參與人數 </th><td> 3人 </td></tr> <tr><th> 近武能力 </th><td> 限用一般近武能力 </td></tr> </table>"
+                            "<table width=425px> <tr><th width=100px> <font color=#32C432>主要目標</font> </th><td> 探索永凍秘境 </td></tr> <tr><th> <font color=red>失敗條件</font> </th><td> 任一試煉者陣亡 </td></tr> <tr><th> 參與陣營 </th><td> <font color=gold>皇家騎士團</font>、<font color=red>天影十字軍</font>、<font color=orange>第三勢力</font> </td></tr> <tr><th> 參與人數 </th><td> 3人 </td></tr> <tr><th> 近武能力 </th><td> 限用一般近武能力 </td></tr> </table>"
                         ]
                     },
                     {
@@ -1109,7 +1119,7 @@ export const seasons = [
                             "傳說中的四象秘境再度開啟，勇士們需放下成見，同心協力通過試煉。",
                             "在此秘境中，不同陣營的能力將產生共鳴，創造出意想不到的戰術組合。",
                             "　",
-                            "<table width=425px> <tr><th width=100px> <font color=#32C432>主要目標</font> </th><td> 合作通過試煉 </td></tr> <tr><th> <font color=red>失敗條件</font> </th><td> 任一試煉者陣亡 </td></tr> <tr><th> 參與陣營 </th><td> <font color=gold>皇家騎士團</font>、<font color=red>天影十字軍</font>、<font color=orange>第三勢力</font> <br> <font color=lime>盜賊幫</font> </td></tr> <tr><th> 參與人數 </th><td> 4人 </td></tr> <tr><th> 近武能力 </th><td> 開放玩家使用所有等級的近武能力 </td></tr> </table>"
+                            "<table width=425px> <tr><th width=100px> <font color=#32C432>主要目標</font> </th><td> 探索四象秘境 </td></tr> <tr><th> <font color=red>失敗條件</font> </th><td> 任一試煉者陣亡 </td></tr> <tr><th> 參與陣營 </th><td> <font color=gold>皇家騎士團</font>、<font color=red>天影十字軍</font>、<font color=orange>第三勢力</font> <br> <font color=lime>盜賊幫</font> </td></tr> <tr><th> 參與人數 </th><td> 4人 </td></tr> <tr><th> 近武能力 </th><td> 開放玩家使用所有等級的近武能力 </td></tr> </table>"
                         ]
                     },
                     {
@@ -1160,6 +1170,7 @@ export const seasons = [
                         "minPlayers": 1,
                         "useAbility": 2,
                         "open": true,
+                        "file": "CG.FlowerFairyPalace/missions/fanissions/medicsecret.events",
                         "camp": [
                             "royal",
                             "skydow",
@@ -1201,6 +1212,7 @@ export const seasons = [
                         "minPlayers": 1,
                         "useAbility": 2,
                         "open": true,
+                        "file": "CG.FlowerFairyPalace/missions/fanissions/mazebreaker.events",
                         "camp": [
                             "royal",
                             "skydow",
@@ -1241,17 +1253,13 @@ export const seasons = [
                         "maxPlayers": 8,
                         "minPlayers": 1,
                         "useAbility": 2,
-                        "open": false,
+                        "open": true,
                         "camp": [
                             "royal",
                             "skydow",
                             "third"
                         ],
                         "description": [
-                            "原作者：腦洞聖。",
-                            "遊戲玩法請在遊戲內按Z查看。",
-                            "單人時可參觀地圖，按O鍵任務完成。",
-                            "　",
                             "【實驗室機密檔案 - 收容失效事件】",
                             "代號『怪物』異常實體已突破收容，設施進入緊急狀態！",
                             "倖存者請注意：你永遠無法確定身邊的同伴是否還是本人...",
@@ -1295,6 +1303,7 @@ export const seasons = [
                         "minPlayers": 1,
                         "useAbility": 2,
                         "open": true,
+                        "file": "CG.FlowerFairyPalace/missions/series/snowrevenge/series_snowrevenge_1.events",
                         "camp": [
                             "royal",
                             "skydow",
@@ -1326,7 +1335,7 @@ export const seasons = [
                             "你們提議使用影輕功潛入，卻發現雪影看著守衛們冒起了滔天的殺氣...",
                             "看來，白馬城將會被守衛們的血所染紅。",
                             "　",
-                            "<table width=425px> <tr><th width=100px> <font color=#32C432>主要目標</font> </th><td> 擊敗所有敵人 </td></tr> <tr><th width=100px> <font color=red>失敗條件</font> </th><td> 『雪影』陣亡 </td></tr> <tr><th> 參與陣營 </th><td> <font color=red>天影十字軍</font> </td></tr> <tr><th> 參與人數 </th><td> 1-4人 </td></tr> <tr><th> 近武能力 </th><td> 開放玩家使用所有等級的近武能力 </td></tr> </table>"
+                            "<table width=425px> <tr><th width=100px> <font color=#32C432>主要目標</font> </th><td> 進入研究所 </td></tr> <tr><th width=100px> <font color=red>失敗條件</font> </th><td> 雪影陣亡 </td></tr> <tr><th> 參與陣營 </th><td> <font color=red>天影十字軍</font> </td></tr> <tr><th> 參與人數 </th><td> 1-4人 </td></tr> <tr><th> 近武能力 </th><td> 開放玩家使用所有等級的近武能力 </td></tr> </table>"
                         ]
                     },
                     {
@@ -1348,7 +1357,7 @@ export const seasons = [
                             "進入了研究所，發現牆上所顯示的的資料一切正如情報所說。",
                             "清除於此的罪惡，為無辜者而戰！",
                             "　",
-                            "<table width=425px> <tr><th width=100px> <font color=#32C432>主要目標</font> </th><td> 擊敗所有敵人 </td></tr> <tr><th width=100px> <font color=red>失敗條件</font> </th><td> 『雪影』陣亡 </td></tr> <tr><th> 參與陣營 </th><td> <font color=red>天影十字軍</font> </td></tr> <tr><th> 參與人數 </th><td> 1-4人 </td></tr> <tr><th> 近武能力 </th><td> 開放玩家使用所有等級的近武能力 </td></tr> </table>"
+                            "<table width=425px> <tr><th width=100px> <font color=#32C432>主要目標</font> </th><td> 繼續深入研究所 </td></tr> <tr><th width=100px> <font color=red>失敗條件</font> </th><td> 雪影陣亡 </td></tr> <tr><th> 參與陣營 </th><td> <font color=red>天影十字軍</font> </td></tr> <tr><th> 參與人數 </th><td> 1-4人 </td></tr> <tr><th> 近武能力 </th><td> 開放玩家使用所有等級的近武能力 </td></tr> </table>"
                         ]
                     },
                     {
@@ -1369,7 +1378,7 @@ export const seasons = [
                         "description": [
                             "來到了研究所底層的你們，聽見了一聲巨大的哀嚎...",
                             "　",
-                            "<table width=425px> <tr><th width=100px> <font color=#32C432>主要目標</font> </th><td> 擊敗生化怪物 </td></tr> <tr><th width=100px> <font color=red>失敗條件</font> </th><td> 『雪影』陣亡 </td></tr> <tr><th> 參與陣營 </th><td> <font color=red>天影十字軍</font> </td></tr> <tr><th> 參與人數 </th><td> 1-4人 </td></tr> <tr><th> 近武能力 </th><td> 開放玩家使用所有等級的近武能力 </td></tr> </table>"
+                            "<table width=425px> <tr><th width=100px> <font color=#32C432>主要目標</font> </th><td> 擊敗生化怪物 </td></tr> <tr><th width=100px> <font color=red>失敗條件</font> </th><td> 雪影陣亡 </td></tr> <tr><th> 參與陣營 </th><td> <font color=red>天影十字軍</font> </td></tr> <tr><th> 參與人數 </th><td> 1-4人 </td></tr> <tr><th> 近武能力 </th><td> 開放玩家使用所有等級的近武能力 </td></tr> </table>"
                         ]
                     },
                     {
@@ -1390,7 +1399,7 @@ export const seasons = [
                         "description": [
                             "研究所的自毀裝置被啟動了，必需找到能離開研究所的方法。",
                             "　",
-                            "<table width=425px> <tr><th width=100px> <font color=#32C432>主要目標</font> </th><td> 平安撤離研究所 </td></tr> <tr><th width=100px> <font color=red>失敗條件</font> </th><td> 『雪影』陣亡 </td></tr> <tr><th> 參與陣營 </th><td> <font color=red>天影十字軍</font> </td></tr> <tr><th> 參與人數 </th><td> 1-4人 </td></tr> <tr><th> 近武能力 </th><td> 開放玩家使用所有等級的近武能力 </td></tr> </table>"
+                            "<table width=425px> <tr><th width=100px> <font color=#32C432>主要目標</font> </th><td> 平安撤離研究所 </td></tr> <tr><th width=100px> <font color=red>失敗條件</font> </th><td> 雪影陣亡 </td></tr> <tr><th> 參與陣營 </th><td> <font color=red>天影十字軍</font> </td></tr> <tr><th> 參與人數 </th><td> 1-4人 </td></tr> <tr><th> 近武能力 </th><td> 開放玩家使用所有等級的近武能力 </td></tr> </table>"
                         ]
                     },
                     {
@@ -1415,6 +1424,7 @@ export const seasons = [
                         "minPlayers": 1,
                         "useAbility": 2,
                         "open": true,
+                        "file": "CG.FlowerFairyPalace/missions/series/flashwing/series_flashwing_1.events",
                         "camp": [
                             "royal",
                             "skydow",
@@ -1426,7 +1436,7 @@ export const seasons = [
                             "妳決定從側門進入，這裡相較正門好走，而且此處有一座小村落，容易混入潛伏。",
                             "妳必須在不驚動天影和村民的情況下進入城內。",
                             "　",
-                            "<table width=425px> <tr><th width=100px> <font color=#32C432>主要目標</font> </th><td> 擊敗所有敵人 </td></tr> <tr><th width=100px> <font color=red>失敗條件</font> </th><td> 天影入城通報<br>誤傷平民 </td></tr> <tr><th> 參與陣營 </th><td> <font color=gold>皇家騎士團</font> </td></tr> <tr><th> 參與人數 </th><td> 1-4人 </td></tr> <tr><th> 近武能力 </th><td> 開放玩家使用所有等級的近武能力 </td></tr> </table>"
+                            "<table width=425px> <tr><th width=100px> <font color=#32C432>主要目標</font> </th><td> 潛入格蘭威城內部 </td></tr> <tr><th width=100px> <font color=red>失敗條件</font> </th><td> 天影入城通報<br>誤傷平民 </td></tr> <tr><th> 參與陣營 </th><td> <font color=gold>皇家騎士團</font> </td></tr> <tr><th> 參與人數 </th><td> 1-4人 </td></tr> <tr><th> 近武能力 </th><td> 開放玩家使用所有等級的近武能力 </td></tr> </table>"
                         ]
                     },
                     {
@@ -1450,7 +1460,7 @@ export const seasons = [
                             "然而，無法詢問守衛，卻也擋不住城中民眾的好奇心...",
                             "妳必須在城中居民口中得知議會長老來此的原因。",
                             "　",
-                            "<table width=425px> <tr><th width=100px> <font color=#32C432>主要目標</font> </th><td> 獲取情報 </td></tr> <tr><th width=100px> <font color=red>失敗條件</font> </th><td> 誤傷平民 </td></tr> <tr><th> 參與陣營 </th><td> <font color=gold>皇家騎士團</font> </td></tr> <tr><th> 參與人數 </th><td> 1人 </td></tr> <tr><th> 近武能力 </th><td> 開放玩家使用所有等級的近武能力 </td></tr> </table>"
+                            "<table width=425px> <tr><th width=100px> <font color=#32C432>主要目標</font> </th><td> 獲取情報 </td></tr> <tr><th width=100px> <font color=red>失敗條件</font> </th><td> 誤傷平民 </td></tr> <tr><th> 參與陣營 </th><td> <font color=gold>皇家騎士團</font> </td></tr> <tr><th> 參與人數 </th><td> 1人 </td></tr> <tr><th> 近武能力 </th><td> 禁止使用 </td></tr> </table>"
                         ]
                     },
                     {
@@ -1472,7 +1482,7 @@ export const seasons = [
                             "從居民口中得知城外的森林似乎出現了『屍血蟲』，可能是天影議會指派長老來此地的原因。",
                             "妳確定前往森林查看。",
                             "　",
-                            "<table width=425px> <tr><th width=100px> <font color=#32C432>主要目標</font> </th><td> 尋找『屍血蟲』 </td></tr> <tr><th width=100px> <font color=red>失敗條件</font> </th><td> 不敵森林猛獸 </td></tr> <tr><th> 參與陣營 </th><td> <font color=gold>皇家騎士團</font> </td></tr> <tr><th> 參與人數 </th><td> 1-4人 </td></tr> <tr><th> 近武能力 </th><td> 開放玩家使用所有等級的近武能力 </td></tr> </table>"
+                            "<table width=425px> <tr><th width=100px> <font color=#32C432>主要目標</font> </th><td> 尋找屍血蟲 </td></tr> <tr><th> 參與陣營 </th><td> <font color=gold>皇家騎士團</font> </td></tr> <tr><th> 參與人數 </th><td> 1-4人 </td></tr> <tr><th> 近武能力 </th><td> 開放玩家使用所有等級的近武能力 </td></tr> </table>"
                         ]
                     },
                     {
@@ -1494,7 +1504,7 @@ export const seasons = [
                             "卑鄙的天影小人釋放神經麻痹的毒氣將妳生擒。",
                             "妳醒來之後發現自己正處於一座囚房之中，而禍首就在妳眼前...",
                             "　",
-                            "<table width=425px> <tr><th width=100px> <font color=#32C432>主要目標</font> </th><td> 逃出生天 </td></tr> <tr><th width=100px> <font color=red>失敗條件</font> </th><td> 再次失手被囚 </td></tr> <tr><th> 參與陣營 </th><td> <font color=gold>皇家騎士團</font> </td></tr> <tr><th> 參與人數 </th><td> 1-4人 </td></tr> <tr><th> 近武能力 </th><td> 開放玩家使用所有等級的近武能力 </td></tr> </table>"
+                            "<table width=425px> <tr><th width=100px> <font color=#32C432>主要目標</font> </th><td> 逃出生天 </td></tr> <tr><th> 參與陣營 </th><td> <font color=gold>皇家騎士團</font> </td></tr> <tr><th> 參與人數 </th><td> 1-4人 </td></tr> <tr><th> 近武能力 </th><td> 開放玩家使用所有等級的近武能力 </td></tr> </table>"
                         ]
                     },
                     {
@@ -1516,7 +1526,7 @@ export const seasons = [
                             "從長老艾斯口中得知這次行動是為了吸引帝國目光而特設的一場戲。",
                             "面對越來越多的追兵，妳真的能活著向帝國報信嗎？",
                             "　",
-                            "<table width=425px> <tr><th width=100px> <font color=#32C432>主要目標</font> </th><td> 逃離包圍並向帝國報信 </td></tr> <tr><th width=100px> <font color=red>失敗條件</font> </th><td> 陣亡 </td></tr> <tr><th> 參與陣營 </th><td> <font color=gold>皇家騎士團</font> </td></tr> <tr><th> 參與人數 </th><td> 1-4人 </td></tr> <tr><th> 近武能力 </th><td> 開放玩家使用所有等級的近武能力 </td></tr> </table>"
+                            "<table width=425px> <tr><th width=100px> <font color=#32C432>主要目標</font> </th><td> 逃生並向帝國報信 </td></tr> <tr><th> 參與陣營 </th><td> <font color=gold>皇家騎士團</font> </td></tr> <tr><th> 參與人數 </th><td> 1-4人 </td></tr> <tr><th> 近武能力 </th><td> 開放玩家使用所有等級的近武能力 </td></tr> </table>"
                         ]
                     },
                     {
@@ -1547,6 +1557,7 @@ export const seasons = [
                         "minPlayers": 1,
                         "useAbility": 2,
                         "open": true,
+                        "file": "CG.FlowerFairyPalace/missions/series/angelhealer/series_angelhealer_1.events",
                         "camp": [
                             "royal",
                             "skydow",
@@ -1556,7 +1567,7 @@ export const seasons = [
                             "托馬斯營地是一處較大的盜賊營地。",
                             "你必須悄聲無息地營救小醫仙，並護送到傭兵團處。",
                             "　",
-                            "<table width=425px> <tr><th width=100px> <font color=#32C432>主要目標</font> </th><td> 營救小醫仙 </td></tr> <tr><th width=100px> <font color=red>失敗條件</font> </th><td> 小醫仙死亡 </td></tr> <tr><th> 參與陣營 </th><td> <font color=orange>第三勢力</font> </td></tr> <tr><th> 參與人數 </th><td> 1-4人 </td></tr> <tr><th> 近武能力 </th><td> 開放玩家使用所有等級的近武能力 </td></tr> </table>"
+                            "<table width=425px> <tr><th width=100px> <font color=#32C432>主要目標</font> </th><td> 營救小醫仙 </td></tr> <tr><th width=100px> <font color=red>失敗條件</font> </th><td> 小醫仙陣亡 </td></tr> <tr><th> 參與陣營 </th><td> <font color=orange>第三勢力</font> </td></tr> <tr><th> 參與人數 </th><td> 1-4人 </td></tr> <tr><th> 近武能力 </th><td> 開放玩家使用所有等級的近武能力 </td></tr> </table>"
                         ]
                     },
                     {
@@ -1580,7 +1591,7 @@ export const seasons = [
                             "幸好，村莊並未見有屍橫遍野的境況，村民們和守村傭兵應該是安全撤離了。",
                             "但是，正當你想離開之際...",
                             "　",
-                            "<table width=425px> <tr><th width=100px> <font color=#32C432>主要目標</font> </th><td> 擊敗所有敵人 </td></tr> <tr><th width=100px> <font color=red>失敗條件</font> </th><td> 陣亡 </td></tr> <tr><th> 參與陣營 </th><td> <font color=orange>第三勢力</font> </td></tr> <tr><th> 參與人數 </th><td> 1-4人 </td></tr> <tr><th> 近武能力 </th><td> 開放玩家使用所有等級的近武能力 </td></tr> </table>"
+                            "<table width=425px> <tr><th width=100px> <font color=#32C432>主要目標</font> </th><td> 奪回村莊 </td></tr> <tr><th> 參與陣營 </th><td> <font color=orange>第三勢力</font> </td></tr> <tr><th> 參與人數 </th><td> 1-4人 </td></tr> <tr><th> 近武能力 </th><td> 開放玩家使用所有等級的近武能力 </td></tr> </table>"
                         ]
                     },
                     {
@@ -1649,7 +1660,7 @@ export const seasons = [
                             "你千辛萬苦脫離了包圍網，只見突然一陣光芒出現...",
                             "一抺倩影渾身帶血的倒在了你眼前。",
                             "　",
-                            "<table width=425px> <tr><th width=100px> <font color=#32C432>主要目標</font> </th><td> 帶小醫仙離開 </td></tr> <tr><th> 參與陣營 </th><td> <font color=orange>第三勢力</font> </td></tr> <tr><th> 參與人數 </th><td> 1人 </td></tr> <tr><th> 近武能力 </th><td> 開放玩家使用所有等級的近武能力 </td></tr> </table>"
+                            "<table width=425px> <tr><th width=100px> <font color=#32C432>主要目標</font> </th><td> 帶小醫仙離開 </td></tr> <tr><th> 參與陣營 </th><td> <font color=orange>第三勢力</font> </td></tr> <tr><th> 參與人數 </th><td> 1人 </td></tr> <tr><th> 近武能力 </th><td> 禁止使用 </td></tr> </table>"
                         ]
                     },
                     {
@@ -1689,6 +1700,7 @@ export const seasons = [
                         "minPlayers": 1,
                         "useAbility": 2,
                         "open": true,
+                        "file": "CG.FlowerFairyPalace/missions/series/vigil/series_vigil_1.events",
                         "camp": [
                             "royal",
                             "skydow",
@@ -1763,7 +1775,7 @@ export const seasons = [
                     },
                     {
                         "code": "series_vigil_4",
-                        "name": "命運的抉擇",
+                        "name": "命運抉擇",
                         "maxPlayers": 1,
                         "minPlayers": 1,
                         "useAbility": 2,
@@ -1784,7 +1796,7 @@ export const seasons = [
                             "身後是萬千生靈的期盼，面前是血脈相連的至親。",
                             "這道選擇題，沒有正確答案，只有你內心深處最真實的答案...",
                             "　",
-                            "<table width=425px> <tr><th width=100px> <font color=#32C432>主要目標</font> </th><td> 作出抉擇 </td></tr> <tr><th> <font color=red>失敗條件</font> </th><td> 猶豫不決 </td></tr> <tr><th> 參與陣營 </th><td> <font color=gold>皇家騎士團</font>、<font color=red>天影十字軍</font>、<font color=orange>第三勢力</font> </td></tr> <tr><th> 參與人數 </th><td> 1人 </td></tr> <tr><th> 近武能力 </th><td> 開放玩家使用所有等級的近武能力 </td></tr> </table>"
+                            "<table width=425px> <tr><th width=100px> <font color=#32C432>主要目標</font> </th><td> 作出抉擇 </td></tr> <tr><th> 參與陣營 </th><td> <font color=gold>皇家騎士團</font>、<font color=red>天影十字軍</font>、<font color=orange>第三勢力</font> </td></tr> <tr><th> 參與人數 </th><td> 1人 </td></tr> <tr><th> 近武能力 </th><td> 開放玩家使用所有等級的近武能力 </td></tr> </table>"
                         ]
                     },
                     {
